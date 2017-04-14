@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/aebell/!svn/ver/64526/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services
+END
+DutyCheckAppraiseController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/aebell/!svn/ver/61023/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyCheckAppraiseController.cs
+END
+FaultController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/61396/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/FaultController.cs
+END
+DutyGroupScheduleHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/aebell/!svn/ver/61322/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyGroupScheduleHelper.cs
+END
+PAPS.Services.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/54063/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/PAPS.Services.xproj
+END
+DutyGroupScheduleController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/aebell/!svn/ver/64027/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyGroupScheduleController.cs
+END
+SentinelController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/64524/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/SentinelController.cs
+END
+DutyCheckController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/61517/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyCheckController.cs
+END
+FeedbackController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/61396/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/FeedbackController.cs
+END
+DutyCheckPackageRunner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/61396/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyCheckPackageRunner.cs
+END
+DutyCheckLogController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/64526/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyCheckLogController.cs
+END
+TemporaryDutyController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/aebell/!svn/ver/61043/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/TemporaryDutyController.cs
+END
+DutyCheckPackageTimePlanController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/aebell/!svn/ver/61104/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyCheckPackageTimePlanController.cs
+END
+DutyCheckPackageHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/61269/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyCheckPackageHelper.cs
+END
+PAPS.Services.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/aebell/!svn/ver/54063/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/PAPS.Services.xproj.user
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/aebell/!svn/ver/61396/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/project.lock.json
+END
+InstitutionsDutyCheckScheduleController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/aebell/!svn/ver/61043/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/InstitutionsDutyCheckScheduleController.cs
+END
+Startup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/aebell/!svn/ver/54063/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/Startup.cs
+END
+DutyCheckPackageController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/aebell/!svn/ver/60870/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyCheckPackageController.cs
+END
+DutyCheckMatterController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/60870/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyCheckMatterController.cs
+END
+DutyCheckGroupController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/60870/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyCheckGroupController.cs
+END
+UnitDutyCheckScheduleController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/aebell/!svn/ver/61043/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/UnitDutyCheckScheduleController.cs
+END
+DutyScheduleController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/61043/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DutyScheduleController.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/aebell/!svn/ver/61043/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/Program.cs
+END
+CircularController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/61396/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/CircularController.cs
+END
+DailyOnDutyController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/aebell/!svn/ver/61043/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/DailyOnDutyController.cs
+END
+ShiftHandoverLogController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/aebell/!svn/ver/63890/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/ShiftHandoverLogController.cs
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/aebell/!svn/ver/60640/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Services/project.json
+END

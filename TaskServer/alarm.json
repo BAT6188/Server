@@ -1,0 +1,58 @@
+﻿[
+  {
+    "AlarmTypeId": "a0002016-e009-b019-e001-abcd00002001",
+    "Description": "发生犯人逃跑",
+    "AudioFileName": "Escape.wav",
+    "Ledbitmask": 8
+  },
+  {
+    "AlarmTypeId": "a0002016-e009-b019-e001-abcd00002002",
+    "Description": "发生犯人暴狱",
+    "AudioFileName": "Prison.wav",
+    "Ledbitmask": 4
+  },
+  {
+    "AlarmTypeId": "a0002016-e009-b019-e001-abcd00002003",
+    "Description": "发生敌特袭击",
+    "AudioFileName": "Assault.wav",
+    "Ledbitmask": 16
+
+  },
+  {
+    "AlarmTypeId": "a0002016-e009-b019-e001-abcd00002004",
+    "Description": "发生自然灾害",
+    "AudioFileName": "Disaster.wav",
+    "Ledbitmask": 32
+  },
+  {
+    "AlarmTypeId": "a0002016-e009-b019-e001-abcd00002005",
+    "Description": "发生冲闯事件",
+    "AudioFileName": "Rush.wav",
+    "Ledbitmask": 4
+  },
+  {
+    "AlarmTypeId": "a0002016-e009-b019-e001-abcd00002006",
+    "Description": "发生破坏事件",
+    "AudioFileName": "Destroy.wav",
+    "Ledbitmask": 8
+  },
+  {
+    "AlarmTypeId": "a0002016-e009-b019-e001-abcd00002007",
+    "Description": "红外",
+    "AudioFileName": "Infrared.wav",
+    "Ledbitmask": 0
+  },
+  {
+    "AlarmTypeId": "a0002016-e009-b019-e001-abcd00002009",
+    "Description": "高压",
+    "AudioFileName": "HighVoltage.wav",
+    "Ledbitmask": 0
+  },
+  {
+    "AlarmTypeId": "a0002016-e009-b019-e001-abcd00002011",
+    "Description": "栅栏",
+    "AudioFileName": "ElectronBarrier.wav",
+    "Ledbitmask": 0
+  }
+
+]

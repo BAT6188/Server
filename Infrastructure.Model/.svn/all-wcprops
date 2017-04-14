@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/aebell/!svn/ver/64558/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model
+END
+ApplicationResource.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/aebell/!svn/ver/55043/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/ApplicationResource.cs
+END
+ControlResources.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/aebell/!svn/ver/54472/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/ControlResources.cs
+END
+ScheduleCycle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/57125/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/ScheduleCycle.cs
+END
+UserSetting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/54934/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/UserSetting.cs
+END
+SystemOption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/57024/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/SystemOption.cs
+END
+DayPeriod.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/57128/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/DayPeriod.cs
+END
+ScheduleCycleMonth.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/55076/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/ScheduleCycleMonth.cs
+END
+OnlineUser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/54982/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/OnlineUser.cs
+END
+UserClaim.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/54310/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/UserClaim.cs
+END
+ScheduleCycleWeek.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/55076/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/ScheduleCycleWeek.cs
+END
+Permission.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/54982/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/Permission.cs
+END
+UserPhoto.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/63525/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/UserPhoto.cs
+END
+UserSettingMapping.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/55407/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/UserSettingMapping.cs
+END
+Schedule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/55076/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/Schedule.cs
+END
+EndPointInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/54911/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/EndPointInfo.cs
+END
+ApplicationSetting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/54310/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/ApplicationSetting.cs
+END
+TimePeriod.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/55076/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/TimePeriod.cs
+END
+Application.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/54496/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/Application.cs
+END
+Staff.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/aebell/!svn/ver/58375/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/Staff.cs
+END
+Organization.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/60635/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/Organization.cs
+END
+ApplicationCenter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/54982/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/ApplicationCenter.cs
+END
+TimePeriodExtra.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/57811/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/TimePeriodExtra.cs
+END
+UserTerminal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/54982/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/UserTerminal.cs
+END
+RolePermission.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/aebell/!svn/ver/55302/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/RolePermission.cs
+END
+Infrastructure.Model.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/Infrastructure.Model.xproj
+END
+User.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/aebell/!svn/ver/54960/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/User.cs
+END
+ScheduleUtility.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/57125/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/ScheduleUtility.cs
+END
+StaffGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/54982/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/StaffGroup.cs
+END
+EventLog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/54982/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/EventLog.cs
+END
+Fingerprint.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/58363/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/Fingerprint.cs
+END
+Attachment.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/64558/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/Attachment.cs
+END
+Infrastructure.Model.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/aebell/!svn/ver/54095/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/Infrastructure.Model.xproj.user
+END
+QueryPagingRecord.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/61212/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/QueryPagingRecord.cs
+END
+UserRole.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/55088/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/UserRole.cs
+END
+Role.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/aebell/!svn/ver/54982/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/Role.cs
+END
+ApplicationSystemOption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/54982/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/ApplicationSystemOption.cs
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/aebell/!svn/ver/64558/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/project.lock.json
+END
+AuthorizationInformation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/aebell/!svn/ver/54982/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/AuthorizationInformation.cs
+END
+ResourcesAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/54310/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/ResourcesAction.cs
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/59997/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Model/project.json
+END

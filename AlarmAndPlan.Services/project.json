@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Resources.Model": "1.0.0-*",
+    "AllInOneContext": "1.0.0-*",
+    "M2MqttDotnetCore": "1.0.0",
+    "AlarmAndPlan.Model": "1.0.0-*",
+    "HttpClientEx": "1.0.0-*",
+    "Infrastructure.Utility": "1.0.0-*",
+    "Microsoft.AspNetCore.Mvc": "1.1.0",
+    "Microsoft.NETCore.App": "1.1.0",
+    "Microsoft.AspNetCore.Hosting": "1.1.0",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
+    "Microsoft.Extensions.Configuration.Json": "1.1.0",
+    "Microsoft.Extensions.Logging.Console": "1.1.0",
+    "Newtonsoft.Json": "9.0.2-beta1",
+    "NLog.Extensions.Logging": "1.0.0-rtm-alpha5"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  },
+  "runtimes": {
+    "ubuntu.16.04-x64": {},
+    "win10-x64": {},
+    "win8-x64": {},
+    "win7-x64": {}
+  }
+}

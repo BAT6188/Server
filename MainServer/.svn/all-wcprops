@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/aebell/!svn/ver/61078/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/MainServer
+END
+nlog.config
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/aebell/!svn/ver/58449/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/MainServer/nlog.config
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/aebell/!svn/ver/60262/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/MainServer/project.lock.json
+END
+AllInOneService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/aebell/!svn/ver/61078/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/MainServer/AllInOneService.cs
+END
+Startup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/aebell/!svn/ver/60015/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/MainServer/Startup.cs
+END
+MainServer.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/54119/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/MainServer/MainServer.xproj.user
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/aebell/!svn/ver/61078/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/MainServer/Program.cs
+END
+MainServer.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aebell/!svn/ver/55078/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/MainServer/MainServer.xproj
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/aebell/!svn/ver/60262/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/MainServer/project.json
+END

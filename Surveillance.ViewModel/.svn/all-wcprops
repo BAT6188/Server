@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/aebell/!svn/ver/63627/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel
+END
+ServiceInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/57019/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/ServiceInfo.cs
+END
+RecordFile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/57019/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/RecordFile.cs
+END
+TvOSDSettingParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/aebell/!svn/ver/54119/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/TvOSDSettingParam.cs
+END
+SnapshotParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/59983/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/SnapshotParam.cs
+END
+TrackGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/59071/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/TrackGroup.cs
+END
+MonitorView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/56590/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/MonitorView.cs
+END
+RecordQueryParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/57092/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/RecordQueryParam.cs
+END
+DecoderStatusInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/aebell/!svn/ver/56436/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/DecoderStatusInfo.cs
+END
+Ptz3DControlParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Ptz3DControlParam.cs
+END
+TvPlayingCamera.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/56419/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/TvPlayingCamera.cs
+END
+EncoderAlarmView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/57112/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/EncoderAlarmView.cs
+END
+VideoRoundSceneView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/aebell/!svn/ver/56701/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/VideoRoundSceneView.cs
+END
+ResourcesModelExtension.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/aebell/!svn/ver/60272/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/ResourcesModelExtension.cs
+END
+RealPlayParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/57092/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/RealPlayParam.cs
+END
+CruiseScanView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/aebell/!svn/ver/59071/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/CruiseScanView.cs
+END
+VideoFileTranscodeParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/VideoFileTranscodeParam.cs
+END
+EncoderInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/60512/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/EncoderInfo.cs
+END
+TVCameraView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/aebell/!svn/ver/56701/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/TVCameraView.cs
+END
+PtzControlParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/57135/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/PtzControlParam.cs
+END
+Surveillance.ViewModel.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Surveillance.ViewModel.xproj.user
+END
+XYRoamParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/56505/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/XYRoamParam.cs
+END
+InputKeyBoards.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/aebell/!svn/ver/61999/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/InputKeyBoards.cs
+END
+CombineWindow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/56361/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/CombineWindow.cs
+END
+MQRealPlayAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/63627/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/MQRealPlayAction.cs
+END
+VideoPlayParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/aebell/!svn/ver/57092/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/VideoPlayParam.cs
+END
+RecordPlayByTime.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/57875/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/RecordPlayByTime.cs
+END
+Surveillance.ViewModel.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Surveillance.ViewModel.xproj
+END
+CameraView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/59705/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/CameraView.cs
+END
+OrginalWindow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/56436/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/OrginalWindow.cs
+END
+RecordPlayParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/57875/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/RecordPlayParam.cs
+END
+RoamWindow.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/56361/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/RoamWindow.cs
+END
+TvRecordTaskSettingParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/TvRecordTaskSettingParam.cs
+END
+VideoOSDSettingParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/aebell/!svn/ver/57019/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/VideoOSDSettingParam.cs
+END
+VideoRoundSectionView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/59622/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/VideoRoundSectionView.cs
+END
+PTZPreset.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/59071/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/PTZPreset.cs
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/aebell/!svn/ver/60119/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/project.lock.json
+END
+VoiceTalkParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/VoiceTalkParam.cs
+END
+DecoderLayout.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/56945/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/DecoderLayout.cs
+END
+OSDSettingParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/OSDSettingParam.cs
+END
+IPTalkParam.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/57019/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/IPTalkParam.cs
+END
+RecordPlayByFtp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/57875/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/RecordPlayByFtp.cs
+END
+VideoPlay.dgml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/VideoPlay.dgml
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/60002/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/project.json
+END

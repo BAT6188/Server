@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MainServer": {
+      "commandName": "Project",
+      "commandLineArgs": "Console"
+    }
+  }
+}

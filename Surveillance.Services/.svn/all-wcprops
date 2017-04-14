@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/aebell/!svn/ver/60874/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.Services
+END
+Surveillance.Services.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/aebell/!svn/ver/55407/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.Services/Surveillance.Services.xproj
+END
+SurveillanceController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/60874/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.Services/SurveillanceController.cs
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/60262/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.Services/project.lock.json
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/55407/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.Services/Program.cs
+END
+Surveillance.Services.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/aebell/!svn/ver/55407/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.Services/Surveillance.Services.xproj.user
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/60262/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.Services/project.json
+END

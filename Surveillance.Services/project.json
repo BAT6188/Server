@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "AllInOneContext": "1.0.0-*",
+    "Microsoft.AspNetCore.Mvc": "1.1.0",
+    "Microsoft.NETCore.App": "1.1.0",
+    "Resources.Model": "1.0.0-*",
+    "Surveillance.Model": "1.0.0-*",
+    "Surveillance.ViewModel": "1.0.0-*",
+    "System.Linq": "4.3.0"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  },
+  "runtimes": {
+    "ubuntu.16.04-x64": {},
+    "win10-x64": {},
+    "win8-x64": {},
+    "win7-x64": {}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "AlarmAndPlan.Services": "1.0.0-*",
+    "DasMulli.Win32.ServiceUtils": "1.0.0-*",
+    "Infrastructure.Services": "1.0.0-*",
+    "Microsoft.AspNet.Hosting": "1.0.0-rc1-final",
+    "Microsoft.AspNetCore.Mvc": "1.1.0",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
+    "Microsoft.AspNetCore.StaticFiles": "1.1.0",
+    "Microsoft.Extensions.Logging.Console": "1.1.0",
+    "Microsoft.NETCore.App": "1.1.0",
+    "NLog.Extensions.Logging": "1.0.0-rtm-alpha5",
+    "PAPS.Services": "1.0.0-*",
+    "Resources.Services": "1.0.0-*",
+    "Surveillance.Services": "1.0.0-*",
+    "TaskServer": "1.0.0-*"
+  },
+  "publishOptions": {
+    "include": [
+      "nlog.config"
+    ],
+    "emitEntryPoint": true
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  },
+  "runtimes": {
+    "ubuntu.16.04-x64": {},
+    "win10-x64": {},
+    "win7-x64": {}
+  }
+}

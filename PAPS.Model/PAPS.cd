@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PAPS.Model.DutyCheckPackageTimePlan">
+    <Position X="0.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAEAAAAAAAAAAAEAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>DutyCheckPackageTimePlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.ScheduleOnDutyStaff">
+    <Position X="6" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAABEAAAACAAAAAAAAAAABAEAAAAAAAA=</HashCode>
+      <FileName>ScheduleOnDutyStaff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.DutyGroup">
+    <Position X="0.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAwAAAAAAAAAAAIACAAAAAAAAAAAQAAIAA=</HashCode>
+      <FileName>DutyGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.Schedule">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAAAAAAoAABAAAABAAAgAAIAAAAAAAAAAEBAIAA=</HashCode>
+      <FileName>Schedule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.ScheduleDetail">
+    <Position X="3.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAABCAAAAAAAEAAAQAAAAA=</HashCode>
+      <FileName>ScheduleDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.ScheduleSession">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIIAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScheduleSession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.DutyCheckSchedule">
+    <Position X="7.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAAEAAAAAAAQAAAAAEAAIAAgAAAACAAMAAAAAAA=</HashCode>
+      <FileName>DutyCheckSchedule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.ShiftHandoverRecord">
+    <Position X="0.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAQAgAAAAAAAAAABAAAAAAIAAAAAQBAAAIAA=</HashCode>
+      <FileName>ShiftHandoverRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.DailyOnDuty">
+    <Position X="5.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAECIAAAACAEAAAAEAAAAAAAAAAAAAAAAEAIAA=</HashCode>
+      <FileName>DailyOnDuty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.TemporaryDuty">
+    <Position X="8" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAAAAAAgIAAADAAAAIQAIIAgAAACAAAAAAACIIA=</HashCode>
+      <FileName>TemporaryDuty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.DutyCheckPackage">
+    <Position X="0.5" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAEAAAAAAAAAAAAkAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>DutyCheckPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.DutyCheckPackageDetail">
+    <Position X="3.25" Y="13.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DutyCheckPackageDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.PlanDutyCheckRecord">
+    <Position X="8.75" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAQAAAEAAAAAAAAACAAAAgUBAgAAAQCAAEAAAIAKEA=</HashCode>
+      <FileName>DutyCheckResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.DutyCheckAppraiseOption">
+    <Position X="0.5" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAQAABAAIQA=</HashCode>
+      <FileName>DutyCheckOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.DutyCheckMatterOption">
+    <Position X="3" Y="16.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEAAAAgAAAAAAAAAAAAgAEAAAAAAAAAAQIAIAA=</HashCode>
+      <FileName>DutyCheckMatterOption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.Circular">
+    <Position X="6" Y="19" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQACAAAgACAAAAAAAAAAAAAACAAAAAQAAAIAAAA=</HashCode>
+      <FileName>Circular.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.Feedback">
+    <Position X="8.25" Y="19" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAAAAAgAAAAAAAIAAAAACAAAAAAAAAAAAAABAg=</HashCode>
+      <FileName>Feedback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PAPS.Model.DutyCheckRecord">
+    <Position X="5.75" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAgAAAAAAAAAAIABUAAAACAAAABAAMAAAA=</HashCode>
+      <FileName>FiledDutyCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

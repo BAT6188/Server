@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/aebell/!svn/ver/61580/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model
+END
+ServiceInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/60000/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/ServiceInfo.cs
+END
+CruiseScanGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/58616/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/CruiseScanGroup.cs
+END
+SentinelSetting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/57229/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/SentinelSetting.cs
+END
+SentinelLayout.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/58030/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/SentinelLayout.cs
+END
+Sentinel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aebell/!svn/ver/59302/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/Sentinel.cs
+END
+EncoderType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/57833/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/EncoderType.cs
+END
+Resources.Model.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/Resources.Model.xproj.user
+END
+DeviceStatusHistory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/aebell/!svn/ver/55618/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/DeviceStatusHistory.cs
+END
+PresetSite.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/aebell/!svn/ver/58364/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/PresetSite.cs
+END
+Camera.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/aebell/!svn/ver/57360/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/Camera.cs
+END
+VideoRoundMonitorySiteSetting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/aebell/!svn/ver/59623/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/VideoRoundMonitorySiteSetting.cs
+END
+VideoRoundSection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/56938/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/VideoRoundSection.cs
+END
+IPDeviceInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/aebell/!svn/ver/58789/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/IPDeviceInfo.cs
+END
+MonitorySite.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/aebell/!svn/ver/57219/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/MonitorySite.cs
+END
+SentinelFingerPrintMapping.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/aebell/!svn/ver/58000/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/SentinelFingerPrintMapping.cs
+END
+SentinelVideo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/56932/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/SentinelVideo.cs
+END
+TemplateCell.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/aebell/!svn/ver/59987/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/TemplateCell.cs
+END
+AlarmMainframe.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/59987/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/AlarmMainframe.cs
+END
+DeviceGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/61580/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/DeviceGroup.cs
+END
+Encoder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/aebell/!svn/ver/59987/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/Encoder.cs
+END
+ServerInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/aebell/!svn/ver/60000/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/ServerInfo.cs
+END
+MonitorySiteGroup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/55618/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/MonitorySiteGroup.cs
+END
+CruiseScanGroupPresetSite.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/aebell/!svn/ver/54567/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/CruiseScanGroupPresetSite.cs
+END
+DeviceGroupIPDevice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/aebell/!svn/ver/54309/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/DeviceGroupIPDevice.cs
+END
+DeviceChannelSetting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/58357/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/DeviceChannelSetting.cs
+END
+SIPTerminal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/55778/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/SIPTerminal.cs
+END
+DefenseDevice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/59082/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/DefenseDevice.cs
+END
+VideoRoundScene.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/54457/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/VideoRoundScene.cs
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/60119/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/project.lock.json
+END
+Materiel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aebell/!svn/ver/54309/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/Materiel.cs
+END
+DeviceChannelTypeMapping.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/aebell/!svn/ver/58357/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/DeviceChannelTypeMapping.cs
+END
+Resources.Model.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/Resources.Model.xproj
+END
+AlarmPeripheral.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/59987/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/AlarmPeripheral.cs
+END
+TemplateLayout.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/54457/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/TemplateLayout.cs
+END
+SentinelLayoutData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/58030/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/SentinelLayoutData.cs
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/aebell/!svn/ver/60002/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Model/project.json
+END

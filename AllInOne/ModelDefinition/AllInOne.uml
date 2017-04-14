@@ -1,0 +1,3362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="e0fb6ee9-3b30-46db-81d2-76d2cbaa12c4"
+  name="AllInOne" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction
+        Id="ab5a798f-f208-437b-8d00-5102f7e860dd"
+        name="报警"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <combinedFragment
+            Id="d6c9868c-8daa-4d1e-a3b3-985430433dfa"
+            name="CombinedFragment1"
+            interactionOperator="Alt"
+            customInteractionOperator="直到成功">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="347ef9ab-f9ce-45a7-9c3e-3b800f38578d"
+                LastKnownName="报警/事件采集服务"
+                LastKnownLocation="AllInOne.uml" />
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand
+                Id="1edc06a6-8593-4df6-bb05-aabf50af7ea9"
+                name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker
+                    Id="347ef9ab-f9ce-45a7-9c3e-3b800f38578d"
+                    LastKnownName="报警/事件采集服务"
+                    LastKnownLocation="AllInOne.uml" />
+                  <lifelineMoniker
+                    Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                    LastKnownName="应用服务"
+                    LastKnownLocation="AllInOne.uml" />
+                  <lifelineMoniker
+                    Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                    LastKnownName="任务服务"
+                    LastKnownLocation="AllInOne.uml" />
+                  <lifelineMoniker
+                    Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                    LastKnownName="消息服务"
+                    LastKnownLocation="AllInOne.uml" />
+                  <lifelineMoniker
+                    Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                    LastKnownName="客户端"
+                    LastKnownLocation="AllInOne.uml" />
+                  <lifelineMoniker
+                    Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                    LastKnownName="上级应用服务"
+                    LastKnownLocation="AllInOne.uml" />
+                </coveredLifelines>
+                <fragments>
+                  <combinedFragment
+                    Id="8e411408-3037-494b-bb60-36259af8a7c2"
+                    name="CombinedFragment1"
+                    interactionOperator="Alt"
+                    customInteractionOperator="时效内">
+                    <coveredLifelines>
+                      <lifelineMoniker
+                        Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                        LastKnownName="应用服务"
+                        LastKnownLocation="AllInOne.uml" />
+                      <lifelineMoniker
+                        Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                        LastKnownName="任务服务"
+                        LastKnownLocation="AllInOne.uml" />
+                      <lifelineMoniker
+                        Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                        LastKnownName="消息服务"
+                        LastKnownLocation="AllInOne.uml" />
+                      <lifelineMoniker
+                        Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                        LastKnownName="客户端"
+                        LastKnownLocation="AllInOne.uml" />
+                      <lifelineMoniker
+                        Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                        LastKnownName="上级应用服务"
+                        LastKnownLocation="AllInOne.uml" />
+                    </coveredLifelines>
+                    <operands>
+                      <interactionOperand
+                        Id="1802d213-328e-4878-9edd-67af12189c00"
+                        name="InteractionOperand1">
+                        <coveredLifelines>
+                          <lifelineMoniker
+                            Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                            LastKnownName="应用服务"
+                            LastKnownLocation="AllInOne.uml" />
+                          <lifelineMoniker
+                            Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                            LastKnownName="任务服务"
+                            LastKnownLocation="AllInOne.uml" />
+                          <lifelineMoniker
+                            Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                            LastKnownName="消息服务"
+                            LastKnownLocation="AllInOne.uml" />
+                          <lifelineMoniker
+                            Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                            LastKnownName="客户端"
+                            LastKnownLocation="AllInOne.uml" />
+                          <lifelineMoniker
+                            Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                            LastKnownName="上级应用服务"
+                            LastKnownLocation="AllInOne.uml" />
+                        </coveredLifelines>
+                        <fragments>
+                          <combinedFragment
+                            Id="34195ed6-3573-4746-8e51-a10982db8909"
+                            name="CombinedFragment1"
+                            interactionOperator="Alt"
+                            customInteractionOperator="并行">
+                            <coveredLifelines>
+                              <lifelineMoniker
+                                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                                LastKnownName="应用服务"
+                                LastKnownLocation="AllInOne.uml" />
+                              <lifelineMoniker
+                                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                                LastKnownName="任务服务"
+                                LastKnownLocation="AllInOne.uml" />
+                              <lifelineMoniker
+                                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                                LastKnownName="上级应用服务"
+                                LastKnownLocation="AllInOne.uml" />
+                            </coveredLifelines>
+                            <operands>
+                              <interactionOperand
+                                Id="ee8e86b4-970f-45b9-bb71-ae371984c074"
+                                name="InteractionOperand1">
+                                <coveredLifelines>
+                                  <lifelineMoniker
+                                    Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                                    LastKnownName="应用服务"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <lifelineMoniker
+                                    Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                                    LastKnownName="任务服务"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <lifelineMoniker
+                                    Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                                    LastKnownName="上级应用服务"
+                                    LastKnownLocation="AllInOne.uml" />
+                                </coveredLifelines>
+                                <guard>
+                                  <interactionConstraint
+                                    Id="ce6a2ee1-64fd-4d31-9880-d5bafe49c843" />
+                                </guard>
+                                <operandOccurrenceSpecifications>
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="f9db2b54-4106-4abb-941e-f21bff3483f4"
+                                    LastKnownName="OperandOccurrenceSpecification109"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="9f06612c-5f32-473f-9fc8-dbd2114b398b"
+                                    LastKnownName="OperandOccurrenceSpecification110"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="d4360c14-b0e1-4b3a-9029-f0c41853d8e1"
+                                    LastKnownName="OperandOccurrenceSpecification111"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="37264f8f-1b8e-4f7b-b97f-7f2c846463d0"
+                                    LastKnownName="OperandOccurrenceSpecification112"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="5fcd6221-0c42-4a78-bf7d-7081ffdc1670"
+                                    LastKnownName="OperandOccurrenceSpecification113"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="b640568b-97f3-4712-904f-5850aa9aa430"
+                                    LastKnownName="OperandOccurrenceSpecification114"
+                                    LastKnownLocation="AllInOne.uml" />
+                                </operandOccurrenceSpecifications>
+                              </interactionOperand>
+                              <interactionOperand
+                                Id="f4ca9569-b371-46f4-84c2-91edefcd303e"
+                                name="InteractionOperand2">
+                                <coveredLifelines>
+                                  <lifelineMoniker
+                                    Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                                    LastKnownName="应用服务"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <lifelineMoniker
+                                    Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                                    LastKnownName="任务服务"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <lifelineMoniker
+                                    Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                                    LastKnownName="上级应用服务"
+                                    LastKnownLocation="AllInOne.uml" />
+                                </coveredLifelines>
+                                <guard>
+                                  <interactionConstraint
+                                    Id="2543f4f7-438e-4b97-9c39-b123f1624cdc" />
+                                </guard>
+                                <operandOccurrenceSpecifications>
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="8cd20fec-c559-4459-8c8a-54c794483e64"
+                                    LastKnownName="OperandOccurrenceSpecification115"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="3dea75b7-7650-4ab1-8199-4cb666b25d33"
+                                    LastKnownName="OperandOccurrenceSpecification116"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="84cf1dd4-e1b8-4db3-bfd4-a84c0dc476fe"
+                                    LastKnownName="OperandOccurrenceSpecification117"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="6771b58b-9ebe-4431-996c-98f3230c2e4b"
+                                    LastKnownName="OperandOccurrenceSpecification118"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="537cf499-86c3-4c18-83dc-21f135e1a770"
+                                    LastKnownName="OperandOccurrenceSpecification119"
+                                    LastKnownLocation="AllInOne.uml" />
+                                  <operandOccurrenceSpecificationMoniker
+                                    Id="32236dd0-f7de-4319-a94e-a78b6671fef9"
+                                    LastKnownName="OperandOccurrenceSpecification120"
+                                    LastKnownLocation="AllInOne.uml" />
+                                </operandOccurrenceSpecifications>
+                              </interactionOperand>
+                            </operands>
+                          </combinedFragment>
+                        </fragments>
+                        <guard>
+                          <interactionConstraint
+                            Id="977277bd-5873-4a77-8cc9-b70db43d13ca" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker
+                            Id="7bfd67cd-1b2a-4832-b0f6-6d00af710d1a"
+                            LastKnownName="OperandOccurrenceSpecification89"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="b0649b0d-452f-4aae-ae18-7542a4a211ce"
+                            LastKnownName="OperandOccurrenceSpecification90"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="e74d2f59-7692-47a1-898a-16135543665d"
+                            LastKnownName="OperandOccurrenceSpecification91"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="9d4f8235-76bb-426c-afc5-af0039200cee"
+                            LastKnownName="OperandOccurrenceSpecification92"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="a88d67b9-1e4f-4446-8008-b0dcbaaaf2f1"
+                            LastKnownName="OperandOccurrenceSpecification93"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="fa594f4b-e890-4e3c-9d9d-09ff70922374"
+                            LastKnownName="OperandOccurrenceSpecification94"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="2b727e59-ad63-4fb9-9fb5-eaef20e6116a"
+                            LastKnownName="OperandOccurrenceSpecification95"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="f26000ec-c65f-4a5a-99b3-38aa459e01f7"
+                            LastKnownName="OperandOccurrenceSpecification96"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="1bbb584f-d84c-43e1-9578-ac54e220dd97"
+                            LastKnownName="OperandOccurrenceSpecification97"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="143bf409-ce57-486e-ba78-496744f30d9c"
+                            LastKnownName="OperandOccurrenceSpecification98"
+                            LastKnownLocation="AllInOne.uml" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                      <interactionOperand
+                        Id="bada618e-b048-4911-9796-6f73d5a9e7e1"
+                        name="InteractionOperand2">
+                        <coveredLifelines>
+                          <lifelineMoniker
+                            Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                            LastKnownName="应用服务"
+                            LastKnownLocation="AllInOne.uml" />
+                          <lifelineMoniker
+                            Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                            LastKnownName="任务服务"
+                            LastKnownLocation="AllInOne.uml" />
+                          <lifelineMoniker
+                            Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                            LastKnownName="消息服务"
+                            LastKnownLocation="AllInOne.uml" />
+                          <lifelineMoniker
+                            Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                            LastKnownName="客户端"
+                            LastKnownLocation="AllInOne.uml" />
+                          <lifelineMoniker
+                            Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                            LastKnownName="上级应用服务"
+                            LastKnownLocation="AllInOne.uml" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint
+                            Id="2c0bb647-b889-44a2-bdba-03020922155d" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker
+                            Id="6f344c89-38d8-492d-b6e2-5ea203e97c1b"
+                            LastKnownName="OperandOccurrenceSpecification99"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="5aa5da6f-0e40-493e-8454-eff43478552d"
+                            LastKnownName="OperandOccurrenceSpecification100"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="f5a6ee5a-30fa-49f3-a7df-f542b9ebcafd"
+                            LastKnownName="OperandOccurrenceSpecification101"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="c7291bd7-223b-41aa-a672-331a02b321ca"
+                            LastKnownName="OperandOccurrenceSpecification102"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="a08fee68-373d-474b-838b-06a9bf49afde"
+                            LastKnownName="OperandOccurrenceSpecification103"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="b4c13c05-0893-4a42-b012-843837142b1c"
+                            LastKnownName="OperandOccurrenceSpecification104"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="00231000-a7cd-47a9-b15e-e7c8d5503e93"
+                            LastKnownName="OperandOccurrenceSpecification105"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="c1a692b0-cc0e-4ef7-84af-1ad8b7b488f9"
+                            LastKnownName="OperandOccurrenceSpecification106"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="89f2990f-7af0-4eee-88fe-edd312f437d8"
+                            LastKnownName="OperandOccurrenceSpecification107"
+                            LastKnownLocation="AllInOne.uml" />
+                          <operandOccurrenceSpecificationMoniker
+                            Id="db7772c1-27c6-4102-9269-560900f71ccf"
+                            LastKnownName="OperandOccurrenceSpecification108"
+                            LastKnownLocation="AllInOne.uml" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                    </operands>
+                  </combinedFragment>
+                </fragments>
+                <guard>
+                  <interactionConstraint
+                    Id="70471b68-d659-4363-9260-926394a34b4b">
+                    <maxInt>
+                      <literalString
+                        Id="f8dbfce8-82e8-4afd-a858-62eb3cb67953"
+                        name="LiteralString1" />
+                    </maxInt>
+                    <minInt>
+                      <literalString
+                        Id="f9e6f9ad-474d-4128-af0b-974714f5d60c"
+                        name="LiteralString2" />
+                    </minInt>
+                  </interactionConstraint>
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker
+                    Id="ed18290f-f7d5-4680-98ec-ff2b6f1fbc4b"
+                    LastKnownName="OperandOccurrenceSpecification77"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="995ab1b9-b0b0-42aa-a503-7c54122504e9"
+                    LastKnownName="OperandOccurrenceSpecification78"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="f02e88e6-556f-4799-97aa-bc896c60ee68"
+                    LastKnownName="OperandOccurrenceSpecification79"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="91865684-71be-4c22-8f60-15ca5ec89374"
+                    LastKnownName="OperandOccurrenceSpecification80"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="cc7037e0-e3b2-45ee-a6d3-2708f6ad5880"
+                    LastKnownName="OperandOccurrenceSpecification81"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="bdfb8219-6481-488c-9e4f-c2aa0a1a3ce8"
+                    LastKnownName="OperandOccurrenceSpecification82"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="9629cc35-6cea-491b-a0db-9926bc9d419a"
+                    LastKnownName="OperandOccurrenceSpecification83"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="2dbf9925-d4c8-48d5-a541-4f2c005cb04a"
+                    LastKnownName="OperandOccurrenceSpecification84"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="da45866b-2862-4272-a14a-cc2d89418e48"
+                    LastKnownName="OperandOccurrenceSpecification85"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="62047ba9-e1f5-4a5c-af21-c7e31f8ae2a3"
+                    LastKnownName="OperandOccurrenceSpecification86"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="0699546d-f2a8-464f-a0e3-a0a3ffb42649"
+                    LastKnownName="OperandOccurrenceSpecification87"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="f0359731-b3e5-4154-8bbe-5b65610e753b"
+                    LastKnownName="OperandOccurrenceSpecification88"
+                    LastKnownLocation="AllInOne.uml" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification
+            Id="0699546d-f2a8-464f-a0e3-a0a3ffb42649"
+            name="OperandOccurrenceSpecification87">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="da45866b-2862-4272-a14a-cc2d89418e48"
+            name="OperandOccurrenceSpecification85">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="9629cc35-6cea-491b-a0db-9926bc9d419a"
+            name="OperandOccurrenceSpecification83">
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="cc7037e0-e3b2-45ee-a6d3-2708f6ad5880"
+            name="OperandOccurrenceSpecification81">
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="f02e88e6-556f-4799-97aa-bc896c60ee68"
+            name="OperandOccurrenceSpecification79">
+            <covered>
+              <lifelineMoniker
+                Id="347ef9ab-f9ce-45a7-9c3e-3b800f38578d"
+                LastKnownName="报警/事件采集服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="ed18290f-f7d5-4680-98ec-ff2b6f1fbc4b"
+            name="OperandOccurrenceSpecification77">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="4c283c13-e3f8-4d87-bd43-9fef0b1441fd"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="6f70d1c0-30a1-4ce3-bd52-910ad7a5f9ba"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="410b8af6-c214-42d4-a5f5-eba201176f9e"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="8528dc62-c2bd-4160-94a6-132613577fc4"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="e74d2f59-7692-47a1-898a-16135543665d"
+                LastKnownName="OperandOccurrenceSpecification91"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1e59aa1e-2e4d-41c7-98f9-0ee7a5bd6348"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ad829f20-ead3-4a0d-b67f-198a1ac86385"
+                LastKnownName="MessageOccurrenceSpecification52"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="666770af-f0a3-4b8f-a2d5-3443db9299f5"
+                LastKnownName="ExecutionOccurrenceSpecification31"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="225ae90e-74c4-4590-a49e-7923b89a98e0"
+                LastKnownName="ExecutionOccurrenceSpecification32"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="9d4f8235-76bb-426c-afc5-af0039200cee"
+                LastKnownName="OperandOccurrenceSpecification92"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="f5a6ee5a-30fa-49f3-a7df-f542b9ebcafd"
+                LastKnownName="OperandOccurrenceSpecification101"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="c7291bd7-223b-41aa-a672-331a02b321ca"
+                LastKnownName="OperandOccurrenceSpecification102"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ca3445ed-179d-430d-82b9-1b6417bd9c27"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="410b8af6-c214-42d4-a5f5-eba201176f9e"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7cb6968b-1f56-4a8b-82ea-9c1914658a55"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8528dc62-c2bd-4160-94a6-132613577fc4"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="404566f5-2866-4b37-b068-c550512f3561"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="347ef9ab-f9ce-45a7-9c3e-3b800f38578d"
+                LastKnownName="报警/事件采集服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="2b727e59-ad63-4fb9-9fb5-eaef20e6116a"
+            name="OperandOccurrenceSpecification95">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="7bfd67cd-1b2a-4832-b0f6-6d00af710d1a"
+            name="OperandOccurrenceSpecification89">
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="a88d67b9-1e4f-4446-8008-b0dcbaaaf2f1"
+            name="OperandOccurrenceSpecification93">
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="1bbb584f-d84c-43e1-9578-ac54e220dd97"
+            name="OperandOccurrenceSpecification97">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="e74d2f59-7692-47a1-898a-16135543665d"
+            name="OperandOccurrenceSpecification91">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="1ca2d7b3-b22b-4277-8649-cbc76ea7fb35"
+            name="BehaviorExecutionSpecification9">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="cbb00681-231a-4f8a-9c70-92bee1efc4ae"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="f80c77c2-adba-458e-b4a2-5a2b16cf6385"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b60b57b9-d70d-42c3-a5e9-3c70d4b2d3fa"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3b28a45b-b1e8-4eb0-8651-34ae89a99cca"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="f80c77c2-adba-458e-b4a2-5a2b16cf6385"
+            name="ExecutionOccurrenceSpecification17">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="638454ad-086e-4117-ba30-5009b02eae25"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1e59aa1e-2e4d-41c7-98f9-0ee7a5bd6348"
+            name="MessageOccurrenceSpecification27">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b60b57b9-d70d-42c3-a5e9-3c70d4b2d3fa"
+            name="MessageOccurrenceSpecification28">
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="02b70603-986a-4e5b-86f3-08558a85e525"
+            name="BehaviorExecutionSpecification20">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="d040bc17-120d-4c9f-b6ad-d9ac15aff419"
+                LastKnownName="ExecutionOccurrenceSpecification40"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="cf81e804-5404-48ed-87ea-925fcc8e92ec"
+                LastKnownName="ExecutionOccurrenceSpecification39"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f556039b-eef2-461c-aa51-559f2be7e658"
+                LastKnownName="MessageOccurrenceSpecification53"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <behaviorExecutionSpecification
+            Id="3dfa42c0-38f4-4edc-a276-940d88ef1d0b"
+            name="BehaviorExecutionSpecification10">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="efa33eb6-db4d-4e50-baa2-2fbca9d80e02"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="70a17c51-6272-416b-ad15-08bed2a0ca07"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e9d55777-0ce8-483f-8148-8e753f62326b"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1d682ecd-2c3c-411a-8236-31d847b4d2c7"
+                LastKnownName="MessageOccurrenceSpecification44"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="cf81e804-5404-48ed-87ea-925fcc8e92ec"
+            name="ExecutionOccurrenceSpecification39">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f5f49dad-2b64-42e1-bb8d-336bbff3e10c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="70a17c51-6272-416b-ad15-08bed2a0ca07"
+            name="ExecutionOccurrenceSpecification19">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cc889843-4679-4b7b-bc71-ce46a965d0f1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f556039b-eef2-461c-aa51-559f2be7e658"
+            name="MessageOccurrenceSpecification53">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ad829f20-ead3-4a0d-b67f-198a1ac86385"
+            name="MessageOccurrenceSpecification52">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e9d55777-0ce8-483f-8148-8e753f62326b"
+            name="MessageOccurrenceSpecification30">
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3b28a45b-b1e8-4eb0-8651-34ae89a99cca"
+            name="MessageOccurrenceSpecification29">
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="367522c8-0413-4adc-9f25-aec4403d2567"
+            name="BehaviorExecutionSpecification16">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="225ae90e-74c4-4590-a49e-7923b89a98e0"
+                LastKnownName="ExecutionOccurrenceSpecification32"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="666770af-f0a3-4b8f-a2d5-3443db9299f5"
+                LastKnownName="ExecutionOccurrenceSpecification31"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="ebf8e833-8eba-4666-b512-4751ddc87180"
+                LastKnownName="MessageOccurrenceSpecification45"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="d4360c14-b0e1-4b3a-9029-f0c41853d8e1"
+                LastKnownName="OperandOccurrenceSpecification111"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="79c72a7e-d8eb-4948-a944-26ea9f504093"
+                LastKnownName="MessageOccurrenceSpecification48"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0459cbe3-5bea-4a3f-b848-7292ee57e738"
+                LastKnownName="MessageOccurrenceSpecification64"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="bd14c653-06e3-4b28-8b49-9f3f86c71444"
+                LastKnownName="MessageOccurrenceSpecification67"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="37264f8f-1b8e-4f7b-b97f-7f2c846463d0"
+                LastKnownName="OperandOccurrenceSpecification112"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="84cf1dd4-e1b8-4db3-bfd4-a84c0dc476fe"
+                LastKnownName="OperandOccurrenceSpecification117"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="6771b58b-9ebe-4431-996c-98f3230c2e4b"
+                LastKnownName="OperandOccurrenceSpecification118"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="cbb00681-231a-4f8a-9c70-92bee1efc4ae"
+            name="ExecutionOccurrenceSpecification18">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b2a9324e-d74f-4ecf-8cb0-428416ceb476"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="666770af-f0a3-4b8f-a2d5-3443db9299f5"
+            name="ExecutionOccurrenceSpecification31">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5e390a04-18d3-4522-bbd7-5f4c7f6875e4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1d682ecd-2c3c-411a-8236-31d847b4d2c7"
+            name="MessageOccurrenceSpecification44">
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ebf8e833-8eba-4666-b512-4751ddc87180"
+            name="MessageOccurrenceSpecification45">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="d040bc17-120d-4c9f-b6ad-d9ac15aff419"
+            name="ExecutionOccurrenceSpecification40">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ad321980-6831-422f-b85b-6164da7c5ddb"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="efa33eb6-db4d-4e50-baa2-2fbca9d80e02"
+            name="ExecutionOccurrenceSpecification20">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="11bcd117-ca74-4ac5-b636-12e6ec3225a7"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="5fcd6221-0c42-4a78-bf7d-7081ffdc1670"
+            name="OperandOccurrenceSpecification113">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="d4360c14-b0e1-4b3a-9029-f0c41853d8e1"
+            name="OperandOccurrenceSpecification111">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="f9db2b54-4106-4abb-941e-f21bff3483f4"
+            name="OperandOccurrenceSpecification109">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="cec44f7a-ab95-4cf2-a6af-2fc1cc39a754"
+            name="BehaviorExecutionSpecification18">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="51014881-54bf-4ef1-ad8b-d9c54a4ab0ef"
+                LastKnownName="ExecutionOccurrenceSpecification36"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="0932659b-f6e2-471f-a4df-406ee9cf10b2"
+                LastKnownName="ExecutionOccurrenceSpecification35"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="541280f6-422f-4d9a-9886-d6126933023f"
+                LastKnownName="MessageOccurrenceSpecification49"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="0932659b-f6e2-471f-a4df-406ee9cf10b2"
+            name="ExecutionOccurrenceSpecification35">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3dacdf82-8aff-4f01-9dae-2b4e7a4d84a3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="541280f6-422f-4d9a-9886-d6126933023f"
+            name="MessageOccurrenceSpecification49">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="79c72a7e-d8eb-4948-a944-26ea9f504093"
+            name="MessageOccurrenceSpecification48">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="e9539c4b-accd-42ad-a54d-b73d5bcc2690"
+            name="BehaviorExecutionSpecification25">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="efead04d-c181-4726-a9a1-5ac3f6803ede"
+                LastKnownName="ExecutionOccurrenceSpecification50"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c6558e71-1882-4418-9804-f6603c26a8c3"
+                LastKnownName="ExecutionOccurrenceSpecification49"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="416ca95a-0b81-41f7-af10-ddbfc82b4c8a"
+                LastKnownName="MessageOccurrenceSpecification65"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c1c15666-142c-4357-8e8e-31f681fd0ec5"
+                LastKnownName="MessageOccurrenceSpecification66"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c6558e71-1882-4418-9804-f6603c26a8c3"
+            name="ExecutionOccurrenceSpecification49">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fc3e58ff-031d-4570-ac78-d3ae68f665a9"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0459cbe3-5bea-4a3f-b848-7292ee57e738"
+            name="MessageOccurrenceSpecification64">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="416ca95a-0b81-41f7-af10-ddbfc82b4c8a"
+            name="MessageOccurrenceSpecification65">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="51014881-54bf-4ef1-ad8b-d9c54a4ab0ef"
+            name="ExecutionOccurrenceSpecification36">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5cf90b14-6666-43de-b5e2-68a6ed6752a0"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c1c15666-142c-4357-8e8e-31f681fd0ec5"
+            name="MessageOccurrenceSpecification66">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bd14c653-06e3-4b28-8b49-9f3f86c71444"
+            name="MessageOccurrenceSpecification67">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="efead04d-c181-4726-a9a1-5ac3f6803ede"
+            name="ExecutionOccurrenceSpecification50">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ab4fd8e2-efb8-4397-9a1c-a30451143bff"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="b640568b-97f3-4712-904f-5850aa9aa430"
+            name="OperandOccurrenceSpecification114">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="37264f8f-1b8e-4f7b-b97f-7f2c846463d0"
+            name="OperandOccurrenceSpecification112">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="9f06612c-5f32-473f-9fc8-dbd2114b398b"
+            name="OperandOccurrenceSpecification110">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="8cd20fec-c559-4459-8c8a-54c794483e64"
+            name="OperandOccurrenceSpecification115">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="537cf499-86c3-4c18-83dc-21f135e1a770"
+            name="OperandOccurrenceSpecification119">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="84cf1dd4-e1b8-4db3-bfd4-a84c0dc476fe"
+            name="OperandOccurrenceSpecification117">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="32236dd0-f7de-4319-a94e-a78b6671fef9"
+            name="OperandOccurrenceSpecification120">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="3dea75b7-7650-4ab1-8199-4cb666b25d33"
+            name="OperandOccurrenceSpecification116">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="6771b58b-9ebe-4431-996c-98f3230c2e4b"
+            name="OperandOccurrenceSpecification118">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="225ae90e-74c4-4590-a49e-7923b89a98e0"
+            name="ExecutionOccurrenceSpecification32">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ccfddf3d-cee7-4a4c-a93c-355e1026e0d3"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="143bf409-ce57-486e-ba78-496744f30d9c"
+            name="OperandOccurrenceSpecification98">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="fa594f4b-e890-4e3c-9d9d-09ff70922374"
+            name="OperandOccurrenceSpecification94">
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="b0649b0d-452f-4aae-ae18-7542a4a211ce"
+            name="OperandOccurrenceSpecification90">
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="f26000ec-c65f-4a5a-99b3-38aa459e01f7"
+            name="OperandOccurrenceSpecification96">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="9d4f8235-76bb-426c-afc5-af0039200cee"
+            name="OperandOccurrenceSpecification92">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="6f344c89-38d8-492d-b6e2-5ea203e97c1b"
+            name="OperandOccurrenceSpecification99">
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="f5a6ee5a-30fa-49f3-a7df-f542b9ebcafd"
+            name="OperandOccurrenceSpecification101">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="a08fee68-373d-474b-838b-06a9bf49afde"
+            name="OperandOccurrenceSpecification103">
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="89f2990f-7af0-4eee-88fe-edd312f437d8"
+            name="OperandOccurrenceSpecification107">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="00231000-a7cd-47a9-b15e-e7c8d5503e93"
+            name="OperandOccurrenceSpecification105">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="c1a692b0-cc0e-4ef7-84af-1ad8b7b488f9"
+            name="OperandOccurrenceSpecification106">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="c7291bd7-223b-41aa-a672-331a02b321ca"
+            name="OperandOccurrenceSpecification102">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="5aa5da6f-0e40-493e-8454-eff43478552d"
+            name="OperandOccurrenceSpecification100">
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="b4c13c05-0893-4a42-b012-843837142b1c"
+            name="OperandOccurrenceSpecification104">
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="db7772c1-27c6-4102-9269-560900f71ccf"
+            name="OperandOccurrenceSpecification108">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ca3445ed-179d-430d-82b9-1b6417bd9c27"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1d787f54-7015-4633-898b-32fd1ddccbc5"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="347ef9ab-f9ce-45a7-9c3e-3b800f38578d"
+                LastKnownName="报警/事件采集服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="6f70d1c0-30a1-4ce3-bd52-910ad7a5f9ba"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0858d091-352d-4965-9979-0cb031be360f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="2dbf9925-d4c8-48d5-a541-4f2c005cb04a"
+            name="OperandOccurrenceSpecification84">
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="91865684-71be-4c22-8f60-15ca5ec89374"
+            name="OperandOccurrenceSpecification80">
+            <covered>
+              <lifelineMoniker
+                Id="347ef9ab-f9ce-45a7-9c3e-3b800f38578d"
+                LastKnownName="报警/事件采集服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="995ab1b9-b0b0-42aa-a503-7c54122504e9"
+            name="OperandOccurrenceSpecification78">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="bdfb8219-6481-488c-9e4f-c2aa0a1a3ce8"
+            name="OperandOccurrenceSpecification82">
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="f0359731-b3e5-4154-8bbe-5b65610e753b"
+            name="OperandOccurrenceSpecification88">
+            <covered>
+              <lifelineMoniker
+                Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+                LastKnownName="任务服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="62047ba9-e1f5-4a5c-af21-c7e31f8ae2a3"
+            name="OperandOccurrenceSpecification86">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="a8a0b7e5-c879-4e9f-b532-9b2ff982dd62"
+            name="BehaviorExecutionSpecification26">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="8edf29c1-4b03-4fc7-8143-a34b6d592e1f"
+                LastKnownName="ExecutionOccurrenceSpecification52"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b67bb775-ffca-4b32-a52a-a6989e3fa036"
+                LastKnownName="ExecutionOccurrenceSpecification51"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="e64732e5-c606-4d73-bf3b-474968094916"
+                LastKnownName="MessageOccurrenceSpecification71"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e90b41e4-2f38-4909-ae4b-3177b1dd2abc"
+                LastKnownName="MessageOccurrenceSpecification78"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="2cf991b2-3066-481d-a014-ddc5c388e4cf"
+                LastKnownName="MessageOccurrenceSpecification81"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f7a23add-a0c8-43e4-b2a1-063ca87c062b"
+                LastKnownName="MessageOccurrenceSpecification74"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="742f6695-fb30-48d6-af1e-e4dca6f3800d"
+                LastKnownName="MessageOccurrenceSpecification72"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b67bb775-ffca-4b32-a52a-a6989e3fa036"
+            name="ExecutionOccurrenceSpecification51">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f3474f3e-a86c-42fe-b9f6-17ffbd2b5159"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d8110c41-e684-4ef1-8cb5-e684f7c4faee"
+            name="MessageOccurrenceSpecification70">
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e64732e5-c606-4d73-bf3b-474968094916"
+            name="MessageOccurrenceSpecification71">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="f1856ffb-1680-4005-b163-1f21a7ae52bf"
+            name="BehaviorExecutionSpecification29">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="d68de91c-688e-47a3-bf19-ad5e00bbd0c4"
+                LastKnownName="ExecutionOccurrenceSpecification58"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="7ecd43da-846e-4095-a526-fb69000e85a4"
+                LastKnownName="ExecutionOccurrenceSpecification57"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="c9923c81-d2bc-4a55-a403-971c429bb3ff"
+                LastKnownName="MessageOccurrenceSpecification79"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4014b27c-89db-42aa-92bb-644edca7fa64"
+                LastKnownName="MessageOccurrenceSpecification80"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="7ecd43da-846e-4095-a526-fb69000e85a4"
+            name="ExecutionOccurrenceSpecification57">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9094d31f-dfd2-40a8-b289-79ae599ded8d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c9923c81-d2bc-4a55-a403-971c429bb3ff"
+            name="MessageOccurrenceSpecification79">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e90b41e4-2f38-4909-ae4b-3177b1dd2abc"
+            name="MessageOccurrenceSpecification78">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2cf991b2-3066-481d-a014-ddc5c388e4cf"
+            name="MessageOccurrenceSpecification81">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4014b27c-89db-42aa-92bb-644edca7fa64"
+            name="MessageOccurrenceSpecification80">
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="d68de91c-688e-47a3-bf19-ad5e00bbd0c4"
+            name="ExecutionOccurrenceSpecification58">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="de6c0aed-7ef1-47b6-8535-e8a8c94013fd"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+                LastKnownName="上级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="486d72b1-8971-484d-8041-3177900231a6"
+            name="BehaviorExecutionSpecification27">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="89a20ab1-c856-47dc-a603-c0429da8ac31"
+                LastKnownName="ExecutionOccurrenceSpecification54"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="3f99667a-207e-4682-b47b-a170df1cd9f7"
+                LastKnownName="ExecutionOccurrenceSpecification53"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="2c129ae1-3987-49f0-ae69-bab74152c047"
+                LastKnownName="MessageOccurrenceSpecification75"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d4a006ab-6bc5-4408-9905-593180255a31"
+                LastKnownName="MessageOccurrenceSpecification76"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="3f99667a-207e-4682-b47b-a170df1cd9f7"
+            name="ExecutionOccurrenceSpecification53">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="44bc7e9c-f082-4f3c-b5bf-f8c8cd317716"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2c129ae1-3987-49f0-ae69-bab74152c047"
+            name="MessageOccurrenceSpecification75">
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f7a23add-a0c8-43e4-b2a1-063ca87c062b"
+            name="MessageOccurrenceSpecification74">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fc9037a3-63e7-4924-92bd-73614c359b96"
+            name="MessageOccurrenceSpecification73">
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="742f6695-fb30-48d6-af1e-e4dca6f3800d"
+            name="MessageOccurrenceSpecification72">
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="8edf29c1-4b03-4fc7-8143-a34b6d592e1f"
+            name="ExecutionOccurrenceSpecification52">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="026b39af-dbc1-4853-b2b1-1c49ad26a701"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="857ab0b8-4cbf-4328-bcd5-d7444bc1fc0a"
+            name="BehaviorExecutionSpecification28">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="2ebe1505-2f49-470d-8c00-4f629ac68457"
+                LastKnownName="ExecutionOccurrenceSpecification56"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="63e765c8-4b7c-48c3-8138-bb52b325b065"
+                LastKnownName="ExecutionOccurrenceSpecification55"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d80cd725-27ad-4975-8148-9c2f518f10a8"
+                LastKnownName="MessageOccurrenceSpecification77"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="63e765c8-4b7c-48c3-8138-bb52b325b065"
+            name="ExecutionOccurrenceSpecification55">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f53fa426-e5d4-4ea0-9454-914a30079edb"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d4a006ab-6bc5-4408-9905-593180255a31"
+            name="MessageOccurrenceSpecification76">
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d80cd725-27ad-4975-8148-9c2f518f10a8"
+            name="MessageOccurrenceSpecification77">
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="89a20ab1-c856-47dc-a603-c0429da8ac31"
+            name="ExecutionOccurrenceSpecification54">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="047ed0b0-64a5-4a1c-9170-e37c60afbe54"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+                LastKnownName="消息服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="2ebe1505-2f49-470d-8c00-4f629ac68457"
+            name="ExecutionOccurrenceSpecification56">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0720130b-e1bd-4dc8-85a9-cc74e1b417a1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="347ef9ab-f9ce-45a7-9c3e-3b800f38578d"
+            name="报警/事件采集服务"
+            isActor="false"
+            lifelineDisplayName="‎报警/事件采集服务‎">
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="f02e88e6-556f-4799-97aa-bc896c60ee68"
+                LastKnownName="OperandOccurrenceSpecification79"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="404566f5-2866-4b37-b068-c550512f3561"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1d787f54-7015-4633-898b-32fd1ddccbc5"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="91865684-71be-4c22-8f60-15ca5ec89374"
+                LastKnownName="OperandOccurrenceSpecification80"
+                LastKnownLocation="AllInOne.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="593163c3-f78c-49bf-a382-d86025b8bca9"
+            name="应用服务"
+            isActor="false"
+            lifelineDisplayName="‎应用服务‎">
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="ed18290f-f7d5-4680-98ec-ff2b6f1fbc4b"
+                LastKnownName="OperandOccurrenceSpecification77"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="410b8af6-c214-42d4-a5f5-eba201176f9e"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="6f70d1c0-30a1-4ce3-bd52-910ad7a5f9ba"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="995ab1b9-b0b0-42aa-a503-7c54122504e9"
+                LastKnownName="OperandOccurrenceSpecification78"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b67bb775-ffca-4b32-a52a-a6989e3fa036"
+                LastKnownName="ExecutionOccurrenceSpecification51"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="8edf29c1-4b03-4fc7-8143-a34b6d592e1f"
+                LastKnownName="ExecutionOccurrenceSpecification52"
+                LastKnownLocation="AllInOne.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="0be90a50-b2c5-494f-8e09-00e19a973f41"
+            name="任务服务"
+            isActor="false"
+            lifelineDisplayName="‎任务服务‎">
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="0699546d-f2a8-464f-a0e3-a0a3ffb42649"
+                LastKnownName="OperandOccurrenceSpecification87"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="1bbb584f-d84c-43e1-9578-ac54e220dd97"
+                LastKnownName="OperandOccurrenceSpecification97"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="cf81e804-5404-48ed-87ea-925fcc8e92ec"
+                LastKnownName="ExecutionOccurrenceSpecification39"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d040bc17-120d-4c9f-b6ad-d9ac15aff419"
+                LastKnownName="ExecutionOccurrenceSpecification40"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="f9db2b54-4106-4abb-941e-f21bff3483f4"
+                LastKnownName="OperandOccurrenceSpecification109"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0932659b-f6e2-471f-a4df-406ee9cf10b2"
+                LastKnownName="ExecutionOccurrenceSpecification35"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="51014881-54bf-4ef1-ad8b-d9c54a4ab0ef"
+                LastKnownName="ExecutionOccurrenceSpecification36"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="9f06612c-5f32-473f-9fc8-dbd2114b398b"
+                LastKnownName="OperandOccurrenceSpecification110"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="8cd20fec-c559-4459-8c8a-54c794483e64"
+                LastKnownName="OperandOccurrenceSpecification115"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="3dea75b7-7650-4ab1-8199-4cb666b25d33"
+                LastKnownName="OperandOccurrenceSpecification116"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="143bf409-ce57-486e-ba78-496744f30d9c"
+                LastKnownName="OperandOccurrenceSpecification98"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="89f2990f-7af0-4eee-88fe-edd312f437d8"
+                LastKnownName="OperandOccurrenceSpecification107"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="db7772c1-27c6-4102-9269-560900f71ccf"
+                LastKnownName="OperandOccurrenceSpecification108"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="f0359731-b3e5-4154-8bbe-5b65610e753b"
+                LastKnownName="OperandOccurrenceSpecification88"
+                LastKnownLocation="AllInOne.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="160b2d9a-401b-4630-8e36-7aabb3b79f5b"
+            name="消息服务"
+            isActor="false"
+            lifelineDisplayName="‎消息服务‎">
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="cc7037e0-e3b2-45ee-a6d3-2708f6ad5880"
+                LastKnownName="OperandOccurrenceSpecification81"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="7bfd67cd-1b2a-4832-b0f6-6d00af710d1a"
+                LastKnownName="OperandOccurrenceSpecification89"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f80c77c2-adba-458e-b4a2-5a2b16cf6385"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="cbb00681-231a-4f8a-9c70-92bee1efc4ae"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="b0649b0d-452f-4aae-ae18-7542a4a211ce"
+                LastKnownName="OperandOccurrenceSpecification90"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="6f344c89-38d8-492d-b6e2-5ea203e97c1b"
+                LastKnownName="OperandOccurrenceSpecification99"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="5aa5da6f-0e40-493e-8454-eff43478552d"
+                LastKnownName="OperandOccurrenceSpecification100"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="bdfb8219-6481-488c-9e4f-c2aa0a1a3ce8"
+                LastKnownName="OperandOccurrenceSpecification82"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="3f99667a-207e-4682-b47b-a170df1cd9f7"
+                LastKnownName="ExecutionOccurrenceSpecification53"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="89a20ab1-c856-47dc-a603-c0429da8ac31"
+                LastKnownName="ExecutionOccurrenceSpecification54"
+                LastKnownLocation="AllInOne.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="08e44a58-e116-468d-8c00-47fb60d9380e"
+            name="客户端"
+            isActor="false"
+            lifelineDisplayName="‎客户端‎">
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="9629cc35-6cea-491b-a0db-9926bc9d419a"
+                LastKnownName="OperandOccurrenceSpecification83"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="a88d67b9-1e4f-4446-8008-b0dcbaaaf2f1"
+                LastKnownName="OperandOccurrenceSpecification93"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="70a17c51-6272-416b-ad15-08bed2a0ca07"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="efa33eb6-db4d-4e50-baa2-2fbca9d80e02"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="fa594f4b-e890-4e3c-9d9d-09ff70922374"
+                LastKnownName="OperandOccurrenceSpecification94"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="a08fee68-373d-474b-838b-06a9bf49afde"
+                LastKnownName="OperandOccurrenceSpecification103"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="b4c13c05-0893-4a42-b012-843837142b1c"
+                LastKnownName="OperandOccurrenceSpecification104"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="2dbf9925-d4c8-48d5-a541-4f2c005cb04a"
+                LastKnownName="OperandOccurrenceSpecification84"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d8110c41-e684-4ef1-8cb5-e684f7c4faee"
+                LastKnownName="MessageOccurrenceSpecification70"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="fc9037a3-63e7-4924-92bd-73614c359b96"
+                LastKnownName="MessageOccurrenceSpecification73"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="63e765c8-4b7c-48c3-8138-bb52b325b065"
+                LastKnownName="ExecutionOccurrenceSpecification55"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2ebe1505-2f49-470d-8c00-4f629ac68457"
+                LastKnownName="ExecutionOccurrenceSpecification56"
+                LastKnownLocation="AllInOne.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="fb34b9b4-17c2-47b3-9c85-2b79a544e861"
+            name="上级应用服务"
+            isActor="false"
+            lifelineDisplayName="‎上级应用服务‎">
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="da45866b-2862-4272-a14a-cc2d89418e48"
+                LastKnownName="OperandOccurrenceSpecification85"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="2b727e59-ad63-4fb9-9fb5-eaef20e6116a"
+                LastKnownName="OperandOccurrenceSpecification95"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="5fcd6221-0c42-4a78-bf7d-7081ffdc1670"
+                LastKnownName="OperandOccurrenceSpecification113"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c6558e71-1882-4418-9804-f6603c26a8c3"
+                LastKnownName="ExecutionOccurrenceSpecification49"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="efead04d-c181-4726-a9a1-5ac3f6803ede"
+                LastKnownName="ExecutionOccurrenceSpecification50"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="b640568b-97f3-4712-904f-5850aa9aa430"
+                LastKnownName="OperandOccurrenceSpecification114"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="537cf499-86c3-4c18-83dc-21f135e1a770"
+                LastKnownName="OperandOccurrenceSpecification119"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="32236dd0-f7de-4319-a94e-a78b6671fef9"
+                LastKnownName="OperandOccurrenceSpecification120"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="f26000ec-c65f-4a5a-99b3-38aa459e01f7"
+                LastKnownName="OperandOccurrenceSpecification96"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="00231000-a7cd-47a9-b15e-e7c8d5503e93"
+                LastKnownName="OperandOccurrenceSpecification105"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="c1a692b0-cc0e-4ef7-84af-1ad8b7b488f9"
+                LastKnownName="OperandOccurrenceSpecification106"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="62047ba9-e1f5-4a5c-af21-c7e31f8ae2a3"
+                LastKnownName="OperandOccurrenceSpecification86"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7ecd43da-846e-4095-a526-fb69000e85a4"
+                LastKnownName="ExecutionOccurrenceSpecification57"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="d68de91c-688e-47a3-bf19-ad5e00bbd0c4"
+                LastKnownName="ExecutionOccurrenceSpecification58"
+                LastKnownLocation="AllInOne.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="117aea57-1b1d-4044-badc-94784dcb29c0"
+            name="1.报警/事件"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="404566f5-2866-4b37-b068-c550512f3561"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8528dc62-c2bd-4160-94a6-132613577fc4"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="439cf5df-5a7d-467a-a9bb-525095eb2773"
+            name="2.1消息广播"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1e59aa1e-2e4d-41c7-98f9-0ee7a5bd6348"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b60b57b9-d70d-42c3-a5e9-3c70d4b2d3fa"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3d09a171-c5c9-4262-815e-c60fa340b28a"
+            name="3.报警响应"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3b28a45b-b1e8-4eb0-8651-34ae89a99cca"
+                LastKnownName="MessageOccurrenceSpecification29"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e9d55777-0ce8-483f-8148-8e753f62326b"
+                LastKnownName="MessageOccurrenceSpecification30"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="62beb97d-6218-461d-ad7e-fd3b087ba446"
+            name="2.2确认前预案"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ad829f20-ead3-4a0d-b67f-198a1ac86385"
+                LastKnownName="MessageOccurrenceSpecification52"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f556039b-eef2-461c-aa51-559f2be7e658"
+                LastKnownName="MessageOccurrenceSpecification53"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="e2e923c1-3c0c-4bb9-bb62-4640655e04d1"
+            name="4.2报警确认"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1d682ecd-2c3c-411a-8236-31d847b4d2c7"
+                LastKnownName="MessageOccurrenceSpecification44"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ebf8e833-8eba-4666-b512-4751ddc87180"
+                LastKnownName="MessageOccurrenceSpecification45"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="19c6d418-bf2e-40e7-9062-7c0d96570341"
+            name="5.1确认后预案"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="79c72a7e-d8eb-4948-a944-26ea9f504093"
+                LastKnownName="MessageOccurrenceSpecification48"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="541280f6-422f-4d9a-9886-d6126933023f"
+                LastKnownName="MessageOccurrenceSpecification49"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="bec5976a-6392-4030-a767-ebf427ec7700"
+            name="5.2报警/事件"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0459cbe3-5bea-4a3f-b848-7292ee57e738"
+                LastKnownName="MessageOccurrenceSpecification64"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="416ca95a-0b81-41f7-af10-ddbfc82b4c8a"
+                LastKnownName="MessageOccurrenceSpecification65"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="22f7563a-b71f-4f82-b851-916083c906ac"
+            name="消息确认"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c1c15666-142c-4357-8e8e-31f681fd0ec5"
+                LastKnownName="MessageOccurrenceSpecification66"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bd14c653-06e3-4b28-8b49-9f3f86c71444"
+                LastKnownName="MessageOccurrenceSpecification67"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3d797570-3cee-4a39-9d39-f85b413915a2"
+            name="消息确认"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ca3445ed-179d-430d-82b9-1b6417bd9c27"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1d787f54-7015-4633-898b-32fd1ddccbc5"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2d3e99f2-efba-4e93-a544-2c41e9f09de4"
+            name="6.1处理结果"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d8110c41-e684-4ef1-8cb5-e684f7c4faee"
+                LastKnownName="MessageOccurrenceSpecification70"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e64732e5-c606-4d73-bf3b-474968094916"
+                LastKnownName="MessageOccurrenceSpecification71"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d9562c94-fb72-4f20-a590-767ed410b912"
+            name="6.2处理结果"
+            messageKind="Complete"
+            messageSort="CreateMessage"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e90b41e4-2f38-4909-ae4b-3177b1dd2abc"
+                LastKnownName="MessageOccurrenceSpecification78"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c9923c81-d2bc-4a55-a403-971c429bb3ff"
+                LastKnownName="MessageOccurrenceSpecification79"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="21f407e3-e957-40fe-b369-19b387d06e10"
+            name="消息确认"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4014b27c-89db-42aa-92bb-644edca7fa64"
+                LastKnownName="MessageOccurrenceSpecification80"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2cf991b2-3066-481d-a014-ddc5c388e4cf"
+                LastKnownName="MessageOccurrenceSpecification81"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="83821837-0a79-458c-a321-df555706bf57"
+            name="6.3发布处理消息"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f7a23add-a0c8-43e4-b2a1-063ca87c062b"
+                LastKnownName="MessageOccurrenceSpecification74"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2c129ae1-3987-49f0-ae69-bab74152c047"
+                LastKnownName="MessageOccurrenceSpecification75"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="4b41c108-f084-4a86-8602-beaf2c736a48"
+            name="消息确认"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="742f6695-fb30-48d6-af1e-e4dca6f3800d"
+                LastKnownName="MessageOccurrenceSpecification72"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fc9037a3-63e7-4924-92bd-73614c359b96"
+                LastKnownName="MessageOccurrenceSpecification73"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="29e66105-8d45-4a61-beb4-01e68a372dc7"
+            name="6.4通知其他客户端"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d4a006ab-6bc5-4408-9905-593180255a31"
+                LastKnownName="MessageOccurrenceSpecification76"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d80cd725-27ad-4975-8148-9c2f518f10a8"
+                LastKnownName="MessageOccurrenceSpecification77"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7cb6968b-1f56-4a8b-82ea-9c1914658a55"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0858d091-352d-4965-9979-0cb031be360f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="638454ad-086e-4117-ba30-5009b02eae25"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b2a9324e-d74f-4ecf-8cb0-428416ceb476"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cc889843-4679-4b7b-bc71-ce46a965d0f1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="11bcd117-ca74-4ac5-b636-12e6ec3225a7"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5e390a04-18d3-4522-bbd7-5f4c7f6875e4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ccfddf3d-cee7-4a4c-a93c-355e1026e0d3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3dacdf82-8aff-4f01-9dae-2b4e7a4d84a3"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5cf90b14-6666-43de-b5e2-68a6ed6752a0"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f5f49dad-2b64-42e1-bb8d-336bbff3e10c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ad321980-6831-422f-b85b-6164da7c5ddb"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fc3e58ff-031d-4570-ac78-d3ae68f665a9"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ab4fd8e2-efb8-4397-9a1c-a30451143bff"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f3474f3e-a86c-42fe-b9f6-17ffbd2b5159"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="026b39af-dbc1-4853-b2b1-1c49ad26a701"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="44bc7e9c-f082-4f3c-b5bf-f8c8cd317716"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="047ed0b0-64a5-4a1c-9170-e37c60afbe54"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f53fa426-e5d4-4ea0-9454-914a30079edb"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0720130b-e1bd-4dc8-85a9-cc74e1b417a1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9094d31f-dfd2-40a8-b289-79ae599ded8d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="de6c0aed-7ef1-47b6-8535-e8a8c94013fd"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="7e29410a-ea7a-48b8-9aae-8ad263209ffc"
+        name="Sequence1"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="e15ae660-9d51-4fd5-98a2-5a8f89a42276"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7275c05c-d4ea-4eed-a45b-238ff81c160c"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b25e6bb4-7f62-4100-bc32-f9cfaf0fbc5d"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="5923ec60-b759-4ab3-88bf-d269a172d5ed"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="e2376b0a-11be-45f1-94fc-2a49358e8adb"
+                LastKnownName="OperandOccurrenceSpecification3"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="a6788a26-95e3-429d-ba22-6c38f2d6de11"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b094a7ad-a504-485f-84d4-391e94802cec"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="5dff12df-3fb5-40a1-9892-545ec2c4179a"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="bf2cd0e5-b795-47e0-87e1-6013ea15c9e7"
+                LastKnownName="OperandOccurrenceSpecification4"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="74081bbf-d5e8-4ff6-9782-0b28f41b5f5a"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b25e6bb4-7f62-4100-bc32-f9cfaf0fbc5d"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="13670779-0e20-40af-a6b9-740f5c0b506d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3ab75a0c-49fc-4e01-be26-a0003bc7fc3e"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="b6ad51c3-f4b1-4ac6-8d2c-01648869d155"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5923ec60-b759-4ab3-88bf-d269a172d5ed"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <combinedFragment
+            Id="432238b2-53eb-4f53-b9d0-ad53d36b265a"
+            name="CombinedFragment1"
+            interactionOperator="Alt"
+            customInteractionOperator="请求非本级数据">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6c9daf93-c87a-49fd-8bca-6a4edfd2c28d"
+                LastKnownName="下级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand
+                Id="28449479-1a35-4134-862b-69000d8f32bd"
+                name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker
+                    Id="6c9daf93-c87a-49fd-8bca-6a4edfd2c28d"
+                    LastKnownName="下级应用服务"
+                    LastKnownLocation="AllInOne.uml" />
+                  <lifelineMoniker
+                    Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                    LastKnownName="应用服务"
+                    LastKnownLocation="AllInOne.uml" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint
+                    Id="d6d2beb4-37e7-4f2d-85c0-579e53807cad" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker
+                    Id="80df9631-9955-4f01-8678-410c40ca89ad"
+                    LastKnownName="OperandOccurrenceSpecification1"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="a354689c-16dd-438a-9304-a93c55fe08c3"
+                    LastKnownName="OperandOccurrenceSpecification2"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="e2376b0a-11be-45f1-94fc-2a49358e8adb"
+                    LastKnownName="OperandOccurrenceSpecification3"
+                    LastKnownLocation="AllInOne.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="bf2cd0e5-b795-47e0-87e1-6013ea15c9e7"
+                    LastKnownName="OperandOccurrenceSpecification4"
+                    LastKnownLocation="AllInOne.uml" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification
+            Id="e2376b0a-11be-45f1-94fc-2a49358e8adb"
+            name="OperandOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="80df9631-9955-4f01-8678-410c40ca89ad"
+            name="OperandOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="6c9daf93-c87a-49fd-8bca-6a4edfd2c28d"
+                LastKnownName="下级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="279fd32b-6b8a-4d7d-9e28-8fd6936432f1"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="6c9daf93-c87a-49fd-8bca-6a4edfd2c28d"
+                LastKnownName="下级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b7db5b5c-1a1b-4cd7-887d-4e63d0799178"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="406d728f-0797-4c7a-9453-9510d4861e25"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="fd595283-4b1f-42b8-a865-babad9647f54"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="AllInOne.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c1ab7730-51cd-450c-9ba6-d66c605d2ec0"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="406d728f-0797-4c7a-9453-9510d4861e25"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9791a5a9-1c67-4cd6-9429-4b7b60c57772"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6c9daf93-c87a-49fd-8bca-6a4edfd2c28d"
+                LastKnownName="下级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a6788a26-95e3-429d-ba22-6c38f2d6de11"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fd595283-4b1f-42b8-a865-babad9647f54"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="6c9daf93-c87a-49fd-8bca-6a4edfd2c28d"
+                LastKnownName="下级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="62a6a2ed-f509-41ee-ba99-eba48bb3f942"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="5dff12df-3fb5-40a1-9892-545ec2c4179a"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b094a7ad-a504-485f-84d4-391e94802cec"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="8094bacc-08e2-4bc8-aeeb-67ac2fd95f75"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b094a7ad-a504-485f-84d4-391e94802cec"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ecb973a2-5538-46e4-85f4-07e9513ae17f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c1ab7730-51cd-450c-9ba6-d66c605d2ec0"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="6c9daf93-c87a-49fd-8bca-6a4edfd2c28d"
+                LastKnownName="下级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8094bacc-08e2-4bc8-aeeb-67ac2fd95f75"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b7db5b5c-1a1b-4cd7-887d-4e63d0799178"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="30a428ee-5f9f-4c2b-8fc6-efebd1e42b86"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="6c9daf93-c87a-49fd-8bca-6a4edfd2c28d"
+                LastKnownName="下级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="5dff12df-3fb5-40a1-9892-545ec2c4179a"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d64e125c-4abf-4960-9f9e-c098501e49f8"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="a354689c-16dd-438a-9304-a93c55fe08c3"
+            name="OperandOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="6c9daf93-c87a-49fd-8bca-6a4edfd2c28d"
+                LastKnownName="下级应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="bf2cd0e5-b795-47e0-87e1-6013ea15c9e7"
+            name="OperandOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="914b8992-061c-4c5e-8442-2b06277f928c"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b6ad51c3-f4b1-4ac6-8d2c-01648869d155"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="5d6f7d43-8983-4281-9ffe-ff8f3971ef42"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="AllInOne.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="1ebd0647-44c0-4178-9503-ee4ba1383816"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="AllInOne.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="9475447c-6bc1-4d1a-ad91-9c87ff6556fc"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="AllInOne.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="1ebd0647-44c0-4178-9503-ee4ba1383816"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ec73f0e6-d1ed-4afa-8adf-baf019988383"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b6ad51c3-f4b1-4ac6-8d2c-01648869d155"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="74081bbf-d5e8-4ff6-9782-0b28f41b5f5a"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9475447c-6bc1-4d1a-ad91-9c87ff6556fc"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="b6ad51c3-f4b1-4ac6-8d2c-01648869d155"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7275c05c-d4ea-4eed-a45b-238ff81c160c"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="60ac745e-a588-4506-a6f7-a56c02a803ac"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+                LastKnownName="应用服务"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="5d6f7d43-8983-4281-9ffe-ff8f3971ef42"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="82643be7-4fc3-48b1-8534-670286bb9dac"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="AllInOne.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b6ad51c3-f4b1-4ac6-8d2c-01648869d155"
+                LastKnownName="客户端"
+                LastKnownLocation="AllInOne.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="b6ad51c3-f4b1-4ac6-8d2c-01648869d155"
+            name="客户端"
+            isActor="false"
+            lifelineDisplayName="‎客户端‎">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="3ab75a0c-49fc-4e01-be26-a0003bc7fc3e"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="1ebd0647-44c0-4178-9503-ee4ba1383816"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="5d6f7d43-8983-4281-9ffe-ff8f3971ef42"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="AllInOne.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="98c755ae-3167-40f7-93c5-21c34fb7d04b"
+            name="应用服务"
+            isActor="false"
+            lifelineDisplayName="‎应用服务‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="b25e6bb4-7f62-4100-bc32-f9cfaf0fbc5d"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7275c05c-d4ea-4eed-a45b-238ff81c160c"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="AllInOne.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="6c9daf93-c87a-49fd-8bca-6a4edfd2c28d"
+            name="下级应用服务"
+            isActor="false"
+            lifelineDisplayName="‎下级应用服务‎">
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="80df9631-9955-4f01-8678-410c40ca89ad"
+                LastKnownName="OperandOccurrenceSpecification1"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="406d728f-0797-4c7a-9453-9510d4861e25"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="AllInOne.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b7db5b5c-1a1b-4cd7-887d-4e63d0799178"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="AllInOne.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="a354689c-16dd-438a-9304-a93c55fe08c3"
+                LastKnownName="OperandOccurrenceSpecification2"
+                LastKnownLocation="AllInOne.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="b27a8015-1035-472e-9692-2a80eb96b610"
+            name="请求指定组织的XX记录"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3ab75a0c-49fc-4e01-be26-a0003bc7fc3e"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5923ec60-b759-4ab3-88bf-d269a172d5ed"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f8a64160-88e9-4c5c-99c9-e0e0839f22fe"
+            name="请求指定组织的XX记录"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a6788a26-95e3-429d-ba22-6c38f2d6de11"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fd595283-4b1f-42b8-a865-babad9647f54"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="dffa2f94-9376-4da9-8abd-140cfded7e67"
+            name="返回记录"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c1ab7730-51cd-450c-9ba6-d66c605d2ec0"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8094bacc-08e2-4bc8-aeeb-67ac2fd95f75"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="dcbbc657-0194-4135-a2ca-2855faf5174d"
+            name="返回记录"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="74081bbf-d5e8-4ff6-9782-0b28f41b5f5a"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="AllInOne.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9475447c-6bc1-4d1a-ad91-9c87ff6556fc"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="AllInOne.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="13670779-0e20-40af-a6b9-740f5c0b506d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="60ac745e-a588-4506-a6f7-a56c02a803ac"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9791a5a9-1c67-4cd6-9429-4b7b60c57772"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="30a428ee-5f9f-4c2b-8fc6-efebd1e42b86"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ecb973a2-5538-46e4-85f4-07e9513ae17f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d64e125c-4abf-4960-9f9e-c098501e49f8"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ec73f0e6-d1ed-4afa-8adf-baf019988383"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="82643be7-4fc3-48b1-8534-670286bb9dac"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

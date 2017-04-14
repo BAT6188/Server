@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/aebell/!svn/ver/61581/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action
+END
+RecordAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/59712/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/RecordAction.cs
+END
+SoundLightAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/61581/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/SoundLightAction.cs
+END
+GISAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/57231/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/GISAction.cs
+END
+IPCastAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/57231/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/IPCastAction.cs
+END
+FireShotAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/58613/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/FireShotAction.cs
+END
+PushTextAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/60911/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/PushTextAction.cs
+END
+BroadcastAudioAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/61182/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/BroadcastAudioAction.cs
+END
+TvAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/aebell/!svn/ver/61581/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/TvAction.cs
+END
+TurnonAlarmLightAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/aebell/!svn/ver/60911/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/TurnonAlarmLightAction.cs
+END
+CartidgeboxAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/aebell/!svn/ver/61393/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/CartidgeboxAction.cs
+END
+SnapshotAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/57171/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/SnapshotAction.cs
+END
+ShoutAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/60911/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/ShoutAction.cs
+END
+VideoRoundTask.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/61581/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/VideoRoundTask.cs
+END
+PlanActionProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/57332/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/PlanActionProvider.cs
+END
+VoicePromptAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/aebell/!svn/ver/57231/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/VoicePromptAction.cs
+END
+RealPlayAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/60911/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Action/RealPlayAction.cs
+END

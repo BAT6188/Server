@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/aebell/!svn/ver/61503/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services
+END
+AlarmAndPlan.Services.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/aebell/!svn/ver/54698/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/AlarmAndPlan.Services.xproj.user
+END
+ForwardAlarmLogError.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/aebell/!svn/ver/55590/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/ForwardAlarmLogError.cs
+END
+PlanController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/61481/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/PlanController.cs
+END
+AlarmSettingController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/60992/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/AlarmSettingController.cs
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/60905/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/project.lock.json
+END
+Startup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/54470/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/Startup.cs
+END
+AlarmLogController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/aebell/!svn/ver/61503/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/AlarmLogController.cs
+END
+ForwardAlarmLogTask.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/aebell/!svn/ver/61399/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/ForwardAlarmLogTask.cs
+END
+TimerTaskController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/aebell/!svn/ver/61399/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/TimerTaskController.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/57185/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/Program.cs
+END
+ServiceEventLogController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/aebell/!svn/ver/60905/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/ServiceEventLogController.cs
+END
+AlarmProcessedController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/aebell/!svn/ver/61399/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/AlarmProcessedController.cs
+END
+AlarmAndPlan.Services.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/aebell/!svn/ver/54818/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/AlarmAndPlan.Services.xproj
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/60262/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/project.json
+END
+AlarmProcessExecutor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/aebell/!svn/ver/61399/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/AlarmAndPlan.Services/AlarmProcessExecutor.cs
+END

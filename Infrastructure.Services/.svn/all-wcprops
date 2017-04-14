@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/aebell/!svn/ver/64559/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services
+END
+Infrastructure.Services.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/aebell/!svn/ver/54060/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/Infrastructure.Services.xproj.user
+END
+ResourcesActionController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/ResourcesActionController.cs
+END
+ApplicationResourceController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/ApplicationResourceController.cs
+END
+SystemOptionController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/SystemOptionController.cs
+END
+UserController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/UserController.cs
+END
+FormFileExtensions.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/aebell/!svn/ver/59306/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/FormFileExtensions.cs
+END
+StaffGroupController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/StaffGroupController.cs
+END
+EventLogController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/aebell/!svn/ver/61213/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/EventLogController.cs
+END
+OnlineUserController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/61154/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/OnlineUserController.cs
+END
+AttachmentController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/64559/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/AttachmentController.cs
+END
+PermissionController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/PermissionController.cs
+END
+Infrastructure.Services.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/aebell/!svn/ver/54244/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/Infrastructure.Services.xproj
+END
+ScheduleController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/ScheduleController.cs
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/64559/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/project.lock.json
+END
+Startup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/54060/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/Startup.cs
+END
+ApplicationSettingController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/ApplicationSettingController.cs
+END
+RoleController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/RoleController.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/54134/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/Program.cs
+END
+ApplicationController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/ApplicationController.cs
+END
+StaffController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/StaffController.cs
+END
+OrganizationController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/aebell/!svn/ver/63829/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/OrganizationController.cs
+END
+ApplicationCenterController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/ApplicationCenterController.cs
+END
+AuthorizationInformationController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/aebell/!svn/ver/60869/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/AuthorizationInformationController.cs
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/60262/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Services/project.json
+END

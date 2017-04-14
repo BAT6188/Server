@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aebell/!svn/ver/60119/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils
+END
+ServiceStatusHandle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceStatusHandle.cs
+END
+IWin32ServiceStateMachine.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/IWin32ServiceStateMachine.cs
+END
+DasMulli.Win32.ServiceUtils.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/DasMulli.Win32.ServiceUtils.xproj
+END
+ServiceAcceptedControlCommandsFlags.cs
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceAcceptedControlCommandsFlags.cs
+END
+IWin32Service.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/IWin32Service.cs
+END
+ServiceConfigInfoTypeLevel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceConfigInfoTypeLevel.cs
+END
+ServiceControlManagerAccessRights.cs
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceControlManagerAccessRights.cs
+END
+Win32AccessMask.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/Win32AccessMask.cs
+END
+INativeInterop.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/INativeInterop.cs
+END
+ServiceControlCommand.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceControlCommand.cs
+END
+ServiceState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceState.cs
+END
+ServiceControlAccessRights.cs
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceControlAccessRights.cs
+END
+DasMulli.Win32.ServiceUtils.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/DasMulli.Win32.ServiceUtils.xproj.user
+END
+ServiceMainFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceMainFunction.cs
+END
+ServiceHandle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceHandle.cs
+END
+ServiceStatusReportCallback.cs
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceStatusReportCallback.cs
+END
+Win32ServiceManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/Win32ServiceManager.cs
+END
+ServiceStartType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceStartType.cs
+END
+ServiceDescriptionInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceDescriptionInfo.cs
+END
+Win32ServiceHost.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/Win32ServiceHost.cs
+END
+ErrorSeverity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ErrorSeverity.cs
+END
+ServiceTableEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceTableEntry.cs
+END
+ServiceControlManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceControlManager.cs
+END
+ServiceControlHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceControlHandler.cs
+END
+SimpleServiceStateMachine.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/aebell/!svn/ver/58933/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/SimpleServiceStateMachine.cs
+END
+Win32ServiceCredentials.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/Win32ServiceCredentials.cs
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/aebell/!svn/ver/60119/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/project.lock.json
+END
+ServiceType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceType.cs
+END
+Win32Interop.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/Win32Interop.cs
+END
+ServiceStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceStatus.cs
+END
+ServiceTypeFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/aebell/!svn/ver/58188/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/ServiceTypeFilter.cs
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/aebell/!svn/ver/60002/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/DasMulli.Win32.ServiceUtils/project.json
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/aebell/!svn/ver/60119/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data
+END
+CmdRequest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/aebell/!svn/ver/58698/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/CmdRequest.cs
+END
+SentinelView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/59413/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/SentinelView.cs
+END
+Resources.Data.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/Resources.Data.xproj.user
+END
+Resources.Data.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/Resources.Data.xproj
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/60119/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/project.lock.json
+END
+CmdResponse.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/aebell/!svn/ver/60004/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/CmdResponse.cs
+END
+AlarmPeripheralView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/57027/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/AlarmPeripheralView.cs
+END
+DefenseDeviceView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/57027/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/DefenseDeviceView.cs
+END
+SentinelCameraView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/56933/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/SentinelCameraView.cs
+END
+SentinelCtrlStyle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/57361/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/SentinelCtrlStyle.cs
+END
+ServiceInfoView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/56949/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/ServiceInfoView.cs
+END
+EncoderView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/aebell/!svn/ver/57027/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/EncoderView.cs
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aebell/!svn/ver/60002/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Resources.Data/project.json
+END

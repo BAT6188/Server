@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="aa81b12a-d923-4e2d-8ab3-6bb0a774f769" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="c197f179-5ed4-4f5c-8517-14f3d0da251e" name="展示层">
+      <childLayers>
+        <layer Id="52fdf832-5dbc-4e5c-904e-fd51304bb1b2" name="WPF">
+          <childLayers>
+            <layer Id="09f23972-380f-4a25-9b14-442f92726b5e" name="应急指挥" />
+            <layer Id="5b00e939-235f-49d3-bb97-b9e893c6bab7" name="武警勤务" />
+            <layer Id="12597acf-ad2b-4e4e-9a41-b9eb1f0e97e3" name="报警预案" />
+            <layer Id="c8b27b4c-7250-4c02-95a7-3674dcd07881" name="视频监控" />
+          </childLayers>
+        </layer>
+        <layer Id="9fc70434-15e0-4658-a0bc-2a81a8951103" name="HTML EasyUI">
+          <childLayers>
+            <layer Id="ec7cc459-408c-44be-81f2-bdfb1255e1c1" name="应用基础" />
+            <layer Id="79fc76af-1962-47e8-94c5-ac63c8b23657" name="资源管理" />
+            <layer Id="3ee18311-eb99-4d0e-97aa-b9dfcae17dc4" name="系统运维" />
+            <layer Id="50a0b136-d66a-456a-b392-d21b32a25920" name="报警管理" />
+            <layer Id="f55e6863-1258-4e5a-9e07-c92b31fc7353" name="预案配置&#xD;&#xA;" />
+          </childLayers>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="e39e3128-07a4-431f-a2a8-a78431cf7526" name="分布式服务层">
+      <childLayers>
+        <layer Id="d066590c-e68c-4853-b89e-361e1ce035d8" name="应用服务" />
+        <layer Id="25a6f9a9-f62d-4ed1-b719-39c00ff2d396" name="视频转发" />
+        <layer Id="b13ba8eb-25f4-4fda-b807-a21f6017ece6" name="视频存储" />
+        <layer Id="3a45ac0c-adec-406d-84ba-c6ca5dc1c415" name="数据矩阵" />
+        <layer Id="8b4b8281-5629-493b-baeb-9a38ff785941" name="视频监控设备控制代理" />
+        <layer Id="ae17a8ae-7644-4144-ab38-e4a148def37c" name="哨位中心" />
+        <layer Id="c94ee3fd-4b91-47dc-b11b-06c6a2f4888b" name="GB/T28181网关" />
+        <layer Id="4fcc269d-5409-4d5b-a34f-96fa4c0bf2bf" name="授权认证" />
+        <layer Id="f8ec76b3-9e92-4892-9712-5efe059c66ab" name="对讲网关" />
+        <layer Id="fa3fae02-3b1f-457f-9813-29806ecfe49f" name="监测代理" />
+        <layer Id="32ecedce-b06f-40dd-81e8-580109f32bb7" name="消息服务" />
+        <layer Id="1c3382fb-7144-4827-9052-908f764967b0" name="任务管理" />
+        <layer Id="d7601362-9107-46db-92d4-ed8b76486fd6" name="IP广播" />
+      </childLayers>
+    </layer>
+    <layer Id="9c55e4e4-f9ef-4bbb-8287-cb32c80f5833" name="应用层">
+      <childLayers>
+        <layer Id="53647b10-525e-4520-929f-b40711c7d71a" name="应用基础" />
+        <layer Id="3718edd3-a33f-49d3-a3b7-f5c9238d75f6" name="报警" />
+        <layer Id="98d9b573-09d3-4db6-80c1-f27374f2c7f8" name="资源管理" />
+        <layer Id="5a4c8f36-414e-4464-afac-8c4c9aaa8e5d" name="武警勤务" />
+        <layer Id="48596d0e-dc39-4342-8c1f-65c3210fc797" name="系统运维" />
+        <layer Id="823dcca9-7c0f-4a0e-ab0a-7c8a628e34a2" name="预案" />
+        <layer Id="c128a7ca-3f01-4004-91b7-a15202c2db41" name="视频监控" />
+        <layer Id="e28cd75a-445d-49dd-8d4e-24d8c030f87b" name="应急指挥" />
+      </childLayers>
+    </layer>
+    <layer Id="a3c5229a-2ae9-46b9-b966-c9a24126053e" name="领域模型层">
+      <childLayers>
+        <layer Id="cb8bac10-ba10-4e7b-a172-f6974964b69e" name="应用基础" />
+        <layer Id="db4d9451-49ac-41c8-94b9-00c7b9d8365c" name="预案" />
+        <layer Id="b94f7365-e037-4670-845e-bb4746b3432f" name="资源管理" />
+        <layer Id="fb4e27e7-32bc-43ff-9b2d-b9a9b8fe2f6f" name="武警勤务" />
+        <layer Id="82ea23f1-f3c7-4f09-b222-40165c396845" name="系统运维" />
+        <layer Id="c9f82515-9ed0-4f39-9f2d-f24ea8b119b6" name="报警" />
+      </childLayers>
+    </layer>
+    <layer Id="fa401158-e7be-49ed-aad5-92eadc016f4f" name="基础设施层">
+      <childLayers>
+        <layer Id="a1786c01-e1e3-4406-8103-410982148e52" name="数据持久化" />
+        <layer Id="3fc6a1f4-4125-4a01-923e-066e310ecdef" name="日志" />
+        <layer Id="d2b66097-1e64-48a3-a583-9ce73fe813aa" name="验证" />
+        <layer Id="142a2c41-98f7-4696-ace2-975612914fd6" name="跟踪" />
+        <layer Id="ed7768ee-9bac-4e1b-aeb8-6ee07ae72aa5" name="监视" />
+        <layer Id="e3ff6723-b318-4db7-93a0-cc23858970c1" name="缓存" />
+        <layer Id="eb9a86b6-26b8-49a9-9d4e-659d8837712f" name="消息组件" />
+        <layer Id="2223f300-a307-4207-becd-082a613d4d18" name="自定义控件" />
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>

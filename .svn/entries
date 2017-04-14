@@ -1,0 +1,143 @@
+10
+
+dir
+63533
+http://192.168.18.221/svn/aebell/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server
+http://192.168.18.221/svn/aebell
+
+
+
+2017-03-20T06:38:17.255716Z
+63525
+zeng_yong_jian
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+4b371ed9-36b0-9040-b88d-21ee6950ab62
+
+
+
+
+
+
+
+
+()
+
+Infrastructure.Model
+dir
+
+Infrastructure.Utility
+dir
+
+Resources.Data
+dir
+
+PAPS.Services
+dir
+
+Surveillance.ViewModel
+dir
+
+SystemMaintenance.Model
+dir
+
+All-In-One.sln
+file
+
+
+
+
+2017-02-05T07:48:36.219587Z
+d3f5df12755eadb90241fee2329dc812
+2016-11-30T09:19:38.599518Z
+58194
+zhang_qi_xun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26069
+
+Infrastructure.Data
+dir
+
+TaskServer
+dir
+
+AlarmAndPlan.Model
+dir
+
+Surveillance.Model
+dir
+
+DasMulli.Win32.ServiceUtils
+dir
+
+Resources.Services
+dir
+
+Resource.Domain
+dir
+
+AllInOne
+dir
+
+Infrastructure.Services
+dir
+
+PAPS.Model
+dir
+
+AllInOneContext
+dir
+
+.vs
+dir
+
+Resources.Model
+dir
+
+PAPS.Data
+dir
+
+MainServer
+dir
+
+HttpClientEx
+dir
+
+AlarmAndPlan.Services
+dir
+
+Surveillance.Services
+dir
+

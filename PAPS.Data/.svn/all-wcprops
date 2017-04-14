@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/aebell/!svn/ver/61810/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data
+END
+CatridgeLedStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/57060/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/CatridgeLedStatus.cs
+END
+DispatchFigureInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/aebell/!svn/ver/58008/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/DispatchFigureInfo.cs
+END
+DeviceAlarmStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/57228/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/DeviceAlarmStatus.cs
+END
+SynchronousSensing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/aebell/!svn/ver/59990/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/SynchronousSensing.cs
+END
+DeviceInfoChange.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/aebell/!svn/ver/57060/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/DeviceInfoChange.cs
+END
+SoundLightControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/57783/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/SoundLightControl.cs
+END
+PushMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/aebell/!svn/ver/57060/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/PushMessage.cs
+END
+PAPS.Data.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/PAPS.Data.xproj.user
+END
+DutyCheckPointView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/aebell/!svn/ver/61315/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/DutyCheckPointView.cs
+END
+SentinelSnapshotVideo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/61809/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/SentinelSnapshotVideo.cs
+END
+VoipTalk.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/aebell/!svn/ver/57060/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/VoipTalk.cs
+END
+FieldDutyCheckLog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/61222/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/FieldDutyCheckLog.cs
+END
+LedDisplay.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/aebell/!svn/ver/61301/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/LedDisplay.cs
+END
+FingerprintOnDuty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/57432/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/FingerprintOnDuty.cs
+END
+SentinelMapInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/aebell/!svn/ver/57484/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/SentinelMapInfo.cs
+END
+DutyCheckPackageProcess.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/aebell/!svn/ver/57529/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/DutyCheckPackageProcess.cs
+END
+CatridgeBoxStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/57060/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/CatridgeBoxStatus.cs
+END
+LedLightStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aebell/!svn/ver/57228/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/LedLightStatus.cs
+END
+DeviceDiagnosis.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/aebell/!svn/ver/57060/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/DeviceDiagnosis.cs
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aebell/!svn/ver/60119/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/project.lock.json
+END
+SentinelSnapshotEvent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/61810/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/SentinelSnapshotEvent.cs
+END
+SentinelShout.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/aebell/!svn/ver/57484/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/SentinelShout.cs
+END
+FingerActionEx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aebell/!svn/ver/59172/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/FingerActionEx.cs
+END
+DeviceVersion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/aebell/!svn/ver/57060/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/DeviceVersion.cs
+END
+SentinelSnapshotEventType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/aebell/!svn/ver/61300/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/SentinelSnapshotEventType.cs
+END
+SentinelOutputStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/aebell/!svn/ver/57060/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/SentinelOutputStatus.cs
+END
+PAPS.Data.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/PAPS.Data.xproj
+END
+DutyDetail.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/aebell/!svn/ver/57432/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/DutyDetail.cs
+END
+FingerAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/aebell/!svn/ver/58008/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/FingerAction.cs
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/aebell/!svn/ver/60521/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/PAPS.Data/project.json
+END

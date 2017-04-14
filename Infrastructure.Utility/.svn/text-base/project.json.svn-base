@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "M2MqttDotnetCore": "1.0.0",
+    "Microsoft.Extensions.Configuration.Json": "1.1.0",
+    "Microsoft.Extensions.Logging": "1.1.0",
+    "Microsoft.Extensions.Logging.Console": "1.1.0",
+    "NETStandard.Library": "1.6.1",
+    "Newtonsoft.Json": "9.0.2-beta1",
+    "NLog.Extensions.Logging": "1.0.0-rtm-alpha5"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

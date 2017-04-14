@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Infrastructure.Model": "1.0.0-*",
+    "Microsoft.EntityFrameworkCore": "1.1.0",
+    "NETStandard.Library": "1.6.1",
+    "Resource.Domain": "1.0.0-*",
+    "Resources.Model": "1.0.0-*",
+    "Surveillance.ViewModel": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

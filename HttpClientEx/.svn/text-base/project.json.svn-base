@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Infrastructure.Utility": "1.0.0-*",
+    "NETStandard.Library": "1.6.1",
+    "Newtonsoft.Json": "9.0.2-beta1",
+    "PAPS.Data": "1.0.0-*",
+    "Resources.Model": "1.0.0-*",
+    "Surveillance.ViewModel": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/aebell/!svn/ver/61851/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer
+END
+PlanTaskScheduler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/aebell/!svn/ver/61851/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/PlanTaskScheduler.cs
+END
+PlanTaskWrapper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/aebell/!svn/ver/55283/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/PlanTaskWrapper.cs
+END
+TaskServer.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aebell/!svn/ver/54819/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/TaskServer.xproj
+END
+TaskUtility.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/aebell/!svn/ver/61393/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/TaskUtility.cs
+END
+PlanActionArgument.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/57332/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/PlanActionArgument.cs
+END
+PlanActionController.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/61027/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/PlanActionController.cs
+END
+nlog.config
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/aebell/!svn/ver/58613/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/nlog.config
+END
+alarm.json
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/aebell/!svn/ver/60229/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/alarm.json
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/aebell/!svn/ver/61393/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/project.lock.json
+END
+Startup.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/aebell/!svn/ver/58613/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Startup.cs
+END
+TaskServer.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/54819/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/TaskServer.xproj.user
+END
+SoundlightConfig.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/aebell/!svn/ver/60229/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/SoundlightConfig.cs
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/aebell/!svn/ver/60229/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/Program.cs
+END
+PlanExecutor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/aebell/!svn/ver/61851/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/PlanExecutor.cs
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/aebell/!svn/ver/60262/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/TaskServer/project.json
+END

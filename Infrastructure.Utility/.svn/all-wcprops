@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/aebell/!svn/ver/61282/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Utility
+END
+Infrastructure.Utility.xproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/aebell/!svn/ver/57329/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Utility/Infrastructure.Utility.xproj.user
+END
+JsonUtility.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/aebell/!svn/ver/61180/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Utility/JsonUtility.cs
+END
+GlobalSetting.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/aebell/!svn/ver/60446/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Utility/GlobalSetting.cs
+END
+Infrastructure.Utility.xproj
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/aebell/!svn/ver/57329/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Utility/Infrastructure.Utility.xproj
+END
+Logger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/aebell/!svn/ver/57329/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Utility/Logger.cs
+END
+project.lock.json
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/aebell/!svn/ver/60119/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Utility/project.lock.json
+END
+ApplicationException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/aebell/!svn/ver/58342/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Utility/ApplicationException.cs
+END
+MQPulish.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/aebell/!svn/ver/61282/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Utility/MQPulish.cs
+END
+globalsetting.json
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/60002/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Utility/globalsetting.json
+END
+project.json
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/aebell/!svn/ver/60002/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Infrastructure.Utility/project.json
+END

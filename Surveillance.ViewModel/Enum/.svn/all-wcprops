@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/aebell/!svn/ver/58614/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum
+END
+PtzControlAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/PtzControlAction.cs
+END
+PTZLensControlAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/aebell/!svn/ver/57134/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/PTZLensControlAction.cs
+END
+PtzControlState.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/PtzControlState.cs
+END
+TalkStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/TalkStatus.cs
+END
+RecordFileType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/aebell/!svn/ver/57875/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/RecordFileType.cs
+END
+SoundPlayStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/SoundPlayStatus.cs
+END
+VideoStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/aebell/!svn/ver/57019/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/VideoStream.cs
+END
+PTZMoveControlAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/aebell/!svn/ver/58614/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/PTZMoveControlAction.cs
+END
+RecordPlayControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/aebell/!svn/ver/57519/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/RecordPlayControl.cs
+END
+RecordPlayType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/aebell/!svn/ver/57390/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/RecordPlayType.cs
+END
+VideoPlayerStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/VideoPlayerStatus.cs
+END
+ServerType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/aebell/!svn/ver/53891/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/ServerType.cs
+END
+FishEyeViewType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/aebell/!svn/ver/57019/BA/PAPS/PAPS%20V3.0/trunk/Coding/Resource_code/Server/Surveillance.ViewModel/Enum/FishEyeViewType.cs
+END

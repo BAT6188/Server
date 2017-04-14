@@ -1,0 +1,36 @@
+﻿{
+  "ActionProvider": {
+    "RealPlayAction": "13000001",
+    "RecordAction": "13000002",
+    "TvAction": "13000003",
+    "SnapshotAction": "13000004",
+    "VoicePromptAction": "13000005",
+    "GISAction": "13000006",
+    "CartidgeboxAction": "13000008",
+    "ShoutAction": "13000011",
+    "FireShotAction": "13000012",
+    "PushTextAction": "13000013",
+    "BroadcastAudioAction": "13000014",
+    "TurnonAlarmLightAction": "13000015"
+  },
+  "AppServer": {
+    "BaseUrl": "http://localhost:5001",
+    "ConnectionString": "User ID=postgres;Host=192.168.18.99;Password=AEBELL123;Port=5432;Database=AllInOne;Pooling=true;",
+    "SearchServerTimeout": 5
+  },
+  "PostServer": {
+    "BaseUrl": "http://localhost:5001"
+  },
+  "MQ": {
+    "BrokerHost": "127.0.0.1"
+  },
+  "WebBuilder": {
+    "Port": 5005
+  },
+  "TaskServer": {
+    "BaseUrl": "http://localhost:5001"
+  },
+  "DCP": {
+    "BaseUrl": "http://localhost:9000"
+  }
+}
